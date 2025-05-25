@@ -26,26 +26,26 @@
 <script setup>
 import { ref, computed } from 'vue'
 import calculators from '~/content/calculators.json'
+import { fallbackFormulas } from '~/content/fallbackFormulas'
 
 const route = useRoute()
-const calculator = calculators.find(c => c.slug === route.params.slug)
+const slug = route.params.slug
+const calculator = calculators.find(c => c.slug === slug)
 
-// Hardcode keys to prevent reactivity issues
-const form = ref({
-  vin: 0,
-  r1: 0,
-  r2: 0
+const form = ref({})
+calculator.inputs.forEach(i => {
+  form.value[i.name] = 0
 })
 
 const result = computed(() => {
   try {
-    const vin = Number(form.value.vin) || 0
-    const r1 = Number(form.value.r1) || 0
-    const r2 = Number(form.value.r2) || 0
-    const fn = new Function('vin', 'r1', 'r2', 'return vin * r2 / (r1 + r2)')
-    const res = fn(vin, r1, r2)
-    return isFinite(res) ? res : NaN
-  } catch {
+    const args = calculator.inputs.map(i => i.name)
+    const values = args.map(n => Number(form.value[n]) || 0)
+    const rawFormula = calculator.formula || fallbackFormulas[slug]
+    const fn = new Function(...args, `return ${rawFormula}`)
+    return fn(...values)
+  } catch (err) {
+    console.warn('Calculation failed for:', slug, err)
     return NaN
   }
 })

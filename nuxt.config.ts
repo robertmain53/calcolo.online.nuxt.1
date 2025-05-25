@@ -1,4 +1,5 @@
 
+import sitemap from '@nuxtjs/sitemap'
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
@@ -12,3 +13,12 @@ export default defineNuxtConfig({
     viewer: false
   }
 })
+
+sitemap: {
+  siteUrl: 'https://example.com',
+  gzip: true,
+  routes: async () => {
+    const calculators = await import('./content/calculators.json').then(m => m.default)
+    return calculators.map(c => `/en/calculators/${c.slug}`)
+  }
+}
