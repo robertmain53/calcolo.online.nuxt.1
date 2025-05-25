@@ -1,5 +1,156 @@
 [
   {
+    "slug": "voltage-divider",
+    "title": "Voltage Divider",
+    "description": "Calculate output voltage using input voltage and resistors R1, R2.",
+    "category": "Electrical",
+    "inputs": [
+      {
+        "label": "Vin",
+        "name": "vin"
+      },
+      {
+        "label": "R1",
+        "name": "r1"
+      },
+      {
+        "label": "R2",
+        "name": "r2"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [
+      "ohms-law",
+      "resistor-power"
+    ],
+    "content": "## Voltage Divider\nFormula: `Vout = Vin * R2 / (R1 + R2)`",
+    "feedback": "Report errors to our team."
+  },
+  {
+    "slug": "ohms-law",
+    "title": "Ohm's Law",
+    "description": "Calculate current from voltage and resistance.",
+    "category": "Electrical",
+    "inputs": [
+      {
+        "label": "Voltage (V)",
+        "name": "voltage"
+      },
+      {
+        "label": "Resistance (\u03a9)",
+        "name": "resistance"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [
+      "voltage-divider"
+    ],
+    "content": "## Ohm's Law\nFormula: `I = V / R`",
+    "feedback": "Let us know if this formula fails."
+  },
+  {
+    "slug": "bmi-calculator",
+    "title": "BMI Calculator",
+    "description": "Calculate Body Mass Index using height and weight.",
+    "category": "Health",
+    "inputs": [
+      {
+        "label": "Weight (kg)",
+        "name": "weight"
+      },
+      {
+        "label": "Height (m)",
+        "name": "height"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [],
+    "content": "## Body Mass Index\nFormula: `BMI = weight / (height^2)`",
+    "feedback": "Only metric units supported for now."
+  },
+  {
+    "slug": "tip-calculator",
+    "title": "Tip Calculator",
+    "description": "Calculate tip and total amount from bill and tip percent.",
+    "category": "Finance",
+    "inputs": [
+      {
+        "label": "Bill Amount",
+        "name": "bill"
+      },
+      {
+        "label": "Tip %",
+        "name": "tip"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [],
+    "content": "## Tip Calculation\nFormula: `Total = bill * (1 + tip / 100)`",
+    "feedback": "Round your tip manually if needed."
+  },
+  {
+    "slug": "loan-payment",
+    "title": "Loan Payment Calculator",
+    "description": "Calculate monthly loan payments.",
+    "category": "Finance",
+    "inputs": [
+      {
+        "label": "Principal",
+        "name": "p"
+      },
+      {
+        "label": "Annual Rate %",
+        "name": "r"
+      },
+      {
+        "label": "Years",
+        "name": "n"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [],
+    "content": "## Loan Formula\nMonthly = (P * r/12) / (1 - (1 + r/12)^(-n*12))",
+    "feedback": "Interest rate must be > 0."
+  },
+  {
+    "slug": "time-converter",
+    "title": "Time Converter",
+    "description": "Convert hours and minutes to total minutes.",
+    "category": "Time",
+    "inputs": [
+      {
+        "label": "Hours",
+        "name": "hours"
+      },
+      {
+        "label": "Minutes",
+        "name": "minutes"
+      }
+    ],
+    "formula": "",
+    "author": "Calcolo Admin",
+    "created": "2024-01-01",
+    "modified": "2025-05-25",
+    "seeAlso": [],
+    "content": "## Time Conversion\nFormula: `total = hours * 60 + minutes`",
+    "feedback": "Use integers only for best results."
+  },
+  {
     "slug": "calc-1",
     "title": "Sample Calculator 1",
     "description": "Auto-generated calculator #1",

@@ -3,20 +3,58 @@ export default {
   legacy: false,
   locale: 'en',
   strategy: 'prefix_except_default',
-  defaultLocale: 'en',
   detectBrowserLanguage: false,
-  locales: [
-    { code: 'en', name: 'English', file: 'en.json' },
-    { code: 'it', name: 'Italian', file: 'it.json', domain: '', paths: { prefix: 'app/run' } },
-    { code: 'es', name: 'Spanish', file: 'es.json' },
-    { code: 'fr', name: 'French', file: 'fr.json' }
-  ],
+  locales: ['en', 'it', 'es', 'fr'],
   vueI18n: {
     messages: {
-      en: { siteTitle: 'RapidTables Clone' },
-      it: { siteTitle: 'Clona RapidTables' },
-      es: { siteTitle: 'Clon RapidTables' },
-      fr: { siteTitle: 'Clone RapidTables' }
+      en: {
+        brand: 'Calcolo.online',
+        search: 'Search...',
+        rights: 'All rights reserved',
+        categories: [
+          { slug: 'electrical', label: 'Electrical' },
+          { slug: 'math', label: 'Math' },
+          { slug: 'lighting', label: 'Lighting' },
+          { slug: 'physics', label: 'Physics' },
+          { slug: 'finance', label: 'Finance' }
+        ]
+      },
+      it: {
+        brand: 'Calcolo.online',
+        search: 'Cerca...',
+        rights: 'Tutti i diritti riservati',
+        categories: [
+          { slug: 'electrical', label: 'Elettricità' },
+          { slug: 'math', label: 'Matematica' },
+          { slug: 'lighting', label: 'Illuminazione' },
+          { slug: 'physics', label: 'Fisica' },
+          { slug: 'finance', label: 'Finanza' }
+        ]
+      },
+      es: {
+        brand: 'Calcolo.online',
+        search: 'Buscar...',
+        rights: 'Todos los derechos reservados',
+        categories: [
+          { slug: 'electrical', label: 'Eléctrico' },
+          { slug: 'math', label: 'Matemáticas' },
+          { slug: 'lighting', label: 'Iluminación' },
+          { slug: 'physics', label: 'Física' },
+          { slug: 'finance', label: 'Finanzas' }
+        ]
+      },
+      fr: {
+        brand: 'Calcolo.online',
+        search: 'Rechercher...',
+        rights: 'Tous droits réservés',
+        categories: [
+          { slug: 'electrical', label: 'Électrique' },
+          { slug: 'math', label: 'Mathématiques' },
+          { slug: 'lighting', label: 'Éclairage' },
+          { slug: 'physics', label: 'Physique' },
+          { slug: 'finance', label: 'Finance' }
+        ]
+      }
     }
   }
 }

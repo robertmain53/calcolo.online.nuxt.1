@@ -39,16 +39,20 @@ const slug = route.params.slug
 const calculator = calculators.find(c => c.slug === slug)
 
 const form = ref({})
-calculator.inputs.forEach(i => form.value[i.name] = 0)
+calculator.inputs.forEach(i => {
+  form.value[i.name] = 0
+})
 
 const result = computed(() => {
   try {
     const args = calculator.inputs.map(i => i.name)
-    const values = args.map(n => Number(form.value[n]) || 0)
-    const rawFormula = calculator.formula || fallbackFormulas[slug]
-    const fn = new Function(...args, `return ${rawFormula}`)
+    const values = args.map(n => Number(form.value[n]))
+    const formula = calculator.formula || fallbackFormulas[slug]
+    if (!formula) return NaN
+    const fn = new Function(...args, `return ${formula}`)
     return fn(...values)
-  } catch {
+  } catch (err) {
+    console.warn('Calc error:', err)
     return NaN
   }
 })
