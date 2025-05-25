@@ -4,19 +4,20 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/robots',
-    'nuxt-sitemap' // ✅ this is the correct reference
+    '@nuxtjs/robots'
   ], 
 i18n: {
     locales: ['en', 'it', 'es', 'fr'],
     defaultLocale: 'en',
     vueI18n: './i18n.config.ts'
   },
-  sitemap: {
-    siteUrl: 'https://example.com',
-    xsl: false
-  },
+ site: { 
+ url: 'https://example.com', 
+ name: 'My Awesome Website' 
+ }, 
   tailwindcss: {
     viewer: false
-  }
+  },
 })
+
+ 
