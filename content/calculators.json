@@ -3,6 +3,21 @@
     "title": "Voltage Divider",
     "slug": "voltage-divider",
     "category": "Electrical",
-    "description": "Calculate output voltage"
+    "description": "Calculate output voltage using Vin, R1, and R2",
+    "inputs": [
+      {
+        "label": "Vin",
+        "name": "vin"
+      },
+      {
+        "label": "R1",
+        "name": "r1"
+      },
+      {
+        "label": "R2",
+        "name": "r2"
+      }
+    ],
+    "formula": "vout = vin * r2 / (r1 + r2)"
   }
 ]

@@ -125,9 +125,6 @@
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables/index"
       ],
-      "#robots": [
-        "./robots"
-      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -186,8 +183,6 @@
     "../node_modules/@nuxtjs/i18n/dist/runtime",
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxtjs/tailwindcss/dist/runtime",
-    "../node_modules/@nuxtjs/robots/runtime",
-    "../node_modules/@nuxtjs/robots/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -201,15 +196,12 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxtjs/i18n/node_modules",
     "../node_modules/@nuxtjs/tailwindcss/node_modules",
-    "../node_modules/@nuxtjs/robots/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/@nuxtjs/i18n/runtime/server",
     "../node_modules/@nuxtjs/i18n/dist/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/dist/runtime/server",
-    "../node_modules/@nuxtjs/robots/runtime/server",
-    "../node_modules/@nuxtjs/robots/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
