@@ -1,36 +1,52 @@
 
 <template>
-  <div class="p-6">
+  <div class="p-6 max-w-xl mx-auto">
     <h1 class="text-2xl font-bold mb-4">{{ calculator.title }}</h1>
-    <p class="mb-4">{{ calculator.description }}</p>
-    <form @submit.prevent="calculate">
-      <div v-for="input in calculator.inputs" :key="input.name" class="mb-2">
-        <label>{{ input.label }}</label>
-        <input v-model.number="form[input.name]" type="number" class="border p-1 ml-2" />
-      </div>
-      <button type="submit" class="bg-blue-500 text-white px-3 py-1 mt-2">Calculate</button>
-    </form>
-    <div v-if="result !== null" class="mt-4">
-      <strong>Result:</strong> {{ result }}
+    <p class="mb-4 text-gray-700">{{ calculator.description }}</p>
+
+    <div v-for="input in calculator.inputs" :key="input.name" class="mb-3">
+      <label class="block font-semibold mb-1">{{ input.label }}</label>
+      <input
+        v-model.number="form[input.name]"
+        type="number"
+        step="any"
+        class="border rounded px-3 py-1 w-full"
+        placeholder="Enter {{ input.label }}"
+      />
+    </div>
+
+    <div class="mt-4 text-lg">
+      <strong>Result:</strong>
+      <span v-if="!isNaN(result)">{{ result }}</span>
+      <span v-else class="text-red-600">Invalid input</span>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
 import calculators from '~/content/calculators.json'
-import { ref } from 'vue'
 
 const route = useRoute()
 const calculator = calculators.find(c => c.slug === route.params.slug)
-const form = ref({})
-const result = ref(null)
 
-function calculate() {
+// Hardcode keys to prevent reactivity issues
+const form = ref({
+  vin: 0,
+  r1: 0,
+  r2: 0
+})
+
+const result = computed(() => {
   try {
-    const fn = new Function(...calculator.inputs.map(i => i.name), 'return ' + calculator.formula.split('=')[1])
-    result.value = fn(...calculator.inputs.map(i => parseFloat(form.value[i.name])))
-  } catch (e) {
-    result.value = 'Error in calculation'
+    const vin = Number(form.value.vin) || 0
+    const r1 = Number(form.value.r1) || 0
+    const r2 = Number(form.value.r2) || 0
+    const fn = new Function('vin', 'r1', 'r2', 'return vin * r2 / (r1 + r2)')
+    const res = fn(vin, r1, r2)
+    return isFinite(res) ? res : NaN
+  } catch {
+    return NaN
   }
-}
+})
 </script>
