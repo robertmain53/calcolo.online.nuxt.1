@@ -1,9 +1,9 @@
 
 <template>
   <div class="p-6">
-    <h1 class="text-2xl font-bold mb-4">Category: {{ $route.params.category }}</h1>
-    <ul class="space-y-2">
-      <li v-for="calc in filtered" :key="calc.slug" class="border-b pb-2">
+    <h1 class="text-2xl font-bold mb-4">Search Results for "{{ q }}"</h1>
+    <ul class="space-y-3">
+      <li v-for="calc in results" :key="calc.slug">
         <NuxtLink :to="`/${$route.params.lang}/calculators/${calc.slug}`" class="text-blue-600 hover:underline">
           {{ calc.title }}
         </NuxtLink>
@@ -14,7 +14,12 @@
 </template>
 
 <script setup>
+import { useRoute } from 'vue-router'
 import calculators from '~/content/calculators.json'
+
 const route = useRoute()
-const filtered = calculators.filter(c => c.category.toLowerCase() === route.params.category.toLowerCase())
+const q = route.query.q?.toLowerCase() || ''
+const results = calculators.filter(c =>
+  c.title.toLowerCase().includes(q) || c.description.toLowerCase().includes(q)
+)
 </script>
