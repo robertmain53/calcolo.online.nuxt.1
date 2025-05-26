@@ -12,12 +12,8 @@
     "electrical": "Elettrico",
     "voltage": "Tensione",
     "resistance": "Resistenza",
-    "finance": "Finanza",
-  "allCalculators": "Tutti i calcolatori",
-    "loading": "Caricamento…",
-  "calculatorNotFound": "Calcolatore non trovato.",
-  "noInputsDefined": "Nessun input definito.",
-  "result": "Risultato",
-  "noFormulaDefined": "Formula non definita."
+    "finance": "Finanza"
+  },
+  "allCalculators": "Tutti i calcolatori"
 }
 

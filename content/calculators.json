@@ -46,7 +46,7 @@
         "name": "resistance"
       }
     ],
-    "formula": "",
+    "formula": "resistance * voltage ",
     "author": "Calcolo Admin",
     "created": "2024-01-01",
     "modified": "2025-05-25",

@@ -62,7 +62,7 @@
 import { ref, reactive, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import calculators from '~/content/calculators.json'
-import rapidTools from '~/content/rapidTablesCalculatorsCalculators.json'
+import rapidTools from '~/content/rapidTablesCalculators.json'
 import CalculatorLayout from '~/components/CalculatorLayout.vue'
 
 // Semplice parser markdown
