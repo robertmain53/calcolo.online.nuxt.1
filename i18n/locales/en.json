@@ -7,7 +7,12 @@
   "categoriesLabel": "Categories",
     "result": "Risultato",
   "noInputsDefined": "Nessun campo di input definito per questo calcolatore.",
-  "noFormulaDefined": "Formula non definita per questo calcolatore."
+  "noFormulaDefined": "Formula non definita per questo calcolatore.",
+    "loading": "Caricamento…",
+  "calculatorNotFound": "Calcolatore non trovato.",
+  "noInputsDefined": "Nessun input definito.",
+  "result": "Risultato",
+  "noFormulaDefined": "Formula non definita."
 
  }
 
