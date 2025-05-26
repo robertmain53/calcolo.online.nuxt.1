@@ -1,20 +1,34 @@
-
 <template>
-  <div class="p-6">
-    <h1 class="text-2xl font-bold mb-4">Category: {{ $route.params.category }}</h1>
-    <ul class="space-y-2">
-      <li v-for="calc in filtered" :key="calc.slug" class="border-b pb-2">
-        <NuxtLink :to="`/${$route.params.lang}/calculators/${calc.slug}`" class="text-blue-600 hover:underline">
-          {{ calc.title }}
+  <CalculatorLayout>
+    <h1 class="text-2xl font-bold">{{ category }}</h1>
+    <div v-html="taxData.intro" class="prose mb-4"></div>
+
+    <!-- Griglia di tutte le sottocategorie -->
+    <ul class="list-disc ml-5 mb-4">
+      <li v-for="sub in subs" :key="sub">
+        <NuxtLink
+          :to="`/${locale}/${category}/${sub}`"
+          class="underline text-blue-600"
+        >
+          {{ sub }}
         </NuxtLink>
-        <p class="text-sm text-gray-500">{{ calc.description }}</p>
       </li>
     </ul>
-  </div>
+
+    <div v-html="taxData.outro" class="prose"></div>
+  </CalculatorLayout>
 </template>
 
 <script setup>
-import calculators from '~/content/calculators.json'
+import taxonomy from '~/content/taxonomy.json'
+import { useRoute } from 'vue-router'
+import CalculatorLayout from '~/components/CalculatorLayout.vue'
+
+const publishedTools = allTools.filter(t => !t.draft)
 const route = useRoute()
-const filtered = calculators.filter(c => c.category.toLowerCase() === route.params.category.toLowerCase())
+const locale = route.params.lang || 'en'
+const category = route.params.category || 'calculators'
+
+const taxData = taxonomy[category] || { intro: '', outro: '', subcategories: {} }
+const subs = Object.keys(taxData.subcategories)
 </script>
