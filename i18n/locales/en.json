@@ -1,10 +1,9 @@
 {
-  "brand": "Calcolo Online",
-  "rights": "All rights reserved",
-  "categories": "Categories",
-  "tools": "Tools",
-  "searchPlaceholder": "Search calculators…",
-  "searchResultsFor": "Search results for “{term}”",
-  "noResults": "No calculators found.",
+  "brand": "Calc.online",
+  "searchPlaceholder": "Search…",
+  "categoriesLabel": "Categories",
+  "lightMode": "Light mode",
+  "darkMode": "Dark mode",
   "categoriesLabel": "Categories"
-}
+ }
+

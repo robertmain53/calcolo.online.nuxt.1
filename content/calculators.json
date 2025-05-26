@@ -50,6 +50,8 @@
     "author": "Calcolo Admin",
     "created": "2024-01-01",
     "modified": "2025-05-25",
+     "draft": false,       
+   "featured": true,      
     "seeAlso": [
       "voltage-divider"
     ],
@@ -75,6 +77,8 @@
     "author": "Calcolo Admin",
     "created": "2024-01-01",
     "modified": "2025-05-25",
+    "draft": true,
+   "featured": false,
     "seeAlso": [],
     "content": "## Body Mass Index\nFormula: `BMI = weight / (height^2)`",
     "feedback": "Only metric units supported for now."

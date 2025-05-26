@@ -1,10 +1,19 @@
 {
-  "brand": "Calcolo Online",
-  "rights": "Tutti i diritti riservati",
-  "categories": "Categorie",
-  "tools": "Strumenti",
-  "searchPlaceholder": "Cerca calcolatori…",
-  "searchResultsFor": "Risultati per “{term}”",
-  "noResults": "Nessun calcolatore trovato.",
-  "categoriesLabel": "Categorie"
+  "brand": "Calcolo.online",
+  "searchPlaceholder": "Cerca…",
+  "categoriesLabel": "Categorie",
+  "lightMode": "Modalità chiara",
+  "darkMode": "Modalità scura",
+    "categoriesLabel": "Categorie",
+  "siteTitle": "Benvenuto su Calcolo.online",
+  "siteIntro": "Introduzione al sito…",
+  "siteOutro": "Grazie per la visita!",
+  "categories": {
+    "electrical": "Elettrico",
+    "voltage": "Tensione",
+    "resistance": "Resistenza",
+    "finance": "Finanza"
+  },
+  "allCalculators": "Tutti i calcolatori"
 }
+

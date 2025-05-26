@@ -1,49 +1,33 @@
 <template>
-  <CalculatorLayout>
-    <!-- Titolo categoria -->
-    <h1 class="text-2xl font-bold mb-2">{{ capitalize(category) }}</h1>
-    <!-- Intro della categoria -->
-    <div v-html="taxData.intro" class="prose mb-6"></div>
-
-    <!-- Elenco sottocategorie -->
+  <div class="p-4 max-w-5xl mx-auto">
+    <h1 class="text-2xl font-bold mb-2">{{ translateCategory(category) }}</h1>
+    <div v-html="catData.intro" class="prose mb-6"></div>
     <ul class="list-disc ml-5 mb-6">
-      <li v-for="sub in subs" :key="sub">
-        <NuxtLink
-          :to="`/${locale}/${category}/${sub}`"
-          class="underline text-blue-600"
-        >
-          {{ capitalize(sub) }}
+      <li v-for="sub in subcats" :key="sub">
+        <NuxtLink :to="`/${locale}/${category}/${sub}`" class="hover:underline">
+          {{ translateCategory(sub) }}
         </NuxtLink>
       </li>
     </ul>
-
-    <!-- Outro della categoria -->
-    <div v-html="taxData.outro" class="prose"></div>
-  </CalculatorLayout>
+    <div v-html="catData.outro" class="prose"></div>
+  </div>
 </template>
 
 <script setup>
 import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import taxonomy from '~/content/taxonomy.json'
-import CalculatorLayout from '~/components/CalculatorLayout.vue'
 
-// 1. Prendo i parametri di route
 const route = useRoute()
-const locale = route.params.lang || 'en'
+const { t } = useI18n()
+const locale = route.params.lang || 'it'
 const category = route.params.category
 
-// 2. Carico i dati da taxonomy.json (che deve avere chiavi lowercase)
-const taxData = taxonomy[category] || {
-  intro: '<p>Questa categoria non esiste.</p>',
-  outro: '',
-  subcategories: {}
-}
+const catData = taxonomy[category] || { intro:'', outro:'', subcategories:{} }
+const subcats = Object.keys(catData.subcategories)
 
-// 3. Lista delle sottocategorie
-const subs = Object.keys(taxData.subcategories)
-
-// 4. Capitalize helper
-function capitalize(s) {
-  return s.charAt(0).toUpperCase() + s.slice(1)
+function translateCategory(slug) {
+  const key = `categories.${slug}`
+  return t(key) !== key ? t(key) : slug.charAt(0).toUpperCase()+slug.slice(1)
 }
 </script>

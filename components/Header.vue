@@ -1,27 +1,67 @@
 <template>
-  <header class="bg-white dark:bg-gray-800 shadow p-4 flex justify-between">
-    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">Brand</NuxtLink>
-    <button @click="toggleDark" class="p-2">
-      <span v-if="isDark">☀️</span><span v-else>🌙</span>
-    </button>
+  <header class="bg-white dark:bg-gray-800 shadow p-4 flex items-center justify-between">
+    <!-- Brand -->
+    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">
+      {{ $t('brand') }}
+    </NuxtLink>
+
+    <div class="flex items-center space-x-4">
+      <!-- Language switcher -->
+      <div class="space-x-2">
+        <button
+          v-for="loc in localeCodes"
+          :key="loc"
+          @click="changeLocale(loc)"
+          :class="[
+            'text-sm px-2 py-1 rounded focus:outline-none',
+            loc === locale ? 'font-bold underline' : ''
+          ]"
+        >
+          {{ loc.toUpperCase() }}
+        </button>
+      </div>
+      <!-- Dark-mode toggle (se vuoi tenerlo) -->
+      <button @click="toggleDark" class="p-2" :aria-label="isDark ? $t('lightMode') : $t('darkMode')">
+        <span v-if="isDark">☀️</span><span v-else>🌙</span>
+      </button>
+    </div>
   </header>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, computed, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
+
 const route = useRoute()
-const locale = route.params.lang || 'it'
+const router = useRouter()
+
+// Prendo il locale corrente da i18n
+const { locale: localeRef } = useI18n()
+const locale = computed(() => route.params.lang || localeRef.value || 'it')
+
+// Array hard-coded dei codici lingua
+const localeCodes = ['it','en','es','fr']
+
+// Cambio lingua sostituendo il primo segmento dell'URL
+function changeLocale(code) {
+  const segments = route.path.split('/')
+  segments[1] = code
+  const newPath = segments.join('/') || `/${code}`
+  router.push(newPath)
+}
+
+// Dark mode (opzionale)
 const isDark = ref(false)
 function toggleDark() {
   isDark.value = !isDark.value
   document.documentElement.classList.toggle('dark', isDark.value)
-  localStorage.setItem('darkMode', isDark.value)
+  localStorage.setItem('darkMode', isDark.value.toString())
 }
 onMounted(() => {
   const saved = localStorage.getItem('darkMode')
   const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches
-  isDark.value = saved==='true' || (saved===null && prefers)
+  isDark.value = saved === 'true' || (saved === null && prefers)
   document.documentElement.classList.toggle('dark', isDark.value)
 })
 </script>

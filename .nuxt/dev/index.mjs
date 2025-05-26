@@ -889,7 +889,7 @@ const _inlineRuntimeConfig = {
       "defaultLocale": "it",
       "defaultDirection": "ltr",
       "strategy": "prefix_except_default",
-      "lazy": false,
+      "lazy": true,
       "rootRedirect": "",
       "routesNameSeparator": "___",
       "defaultLocaleRouteNameSuffix": "default",
@@ -901,13 +901,45 @@ const _inlineRuntimeConfig = {
           "code": "it",
           "iso": "it-IT",
           "name": "Italiano",
-          "files": []
+          "files": [
+            {
+              "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
+              "cache": ""
+            }
+          ]
         },
         {
           "code": "en",
           "iso": "en-US",
           "name": "English",
-          "files": []
+          "files": [
+            {
+              "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
+              "cache": ""
+            }
+          ]
+        },
+        {
+          "code": "es",
+          "iso": "es-ES",
+          "name": "Español",
+          "files": [
+            {
+              "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
+              "cache": ""
+            }
+          ]
+        },
+        {
+          "code": "fr",
+          "iso": "fr-FR",
+          "name": "Français",
+          "files": [
+            {
+              "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",
+              "cache": ""
+            }
+          ]
         }
       ],
       "detectBrowserLanguage": false,
