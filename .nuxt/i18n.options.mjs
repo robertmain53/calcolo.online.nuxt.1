@@ -2,9 +2,15 @@
 // @ts-nocheck
 
 
-export const localeCodes =  []
+export const localeCodes =  [
+  "it",
+  "en"
+]
 
-export const localeLoaders = {}
+export const localeLoaders = {
+  it: [],
+  en: []
+}
 
 export const vueI18nConfigs = []
 
@@ -35,8 +41,21 @@ export const nuxtI18nOptions = {
     defaultSFCLang: "json",
     globalSFCScope: false
   },
-  locales: [],
-  defaultLocale: "",
+  locales: [
+    {
+      code: "it",
+      iso: "it-IT",
+      name: "Italiano",
+      files: []
+    },
+    {
+      code: "en",
+      iso: "en-US",
+      name: "English",
+      files: []
+    }
+  ],
+  defaultLocale: "it",
   defaultDirection: "ltr",
   routesNameSeparator: "___",
   trailingSlash: false,
@@ -45,16 +64,7 @@ export const nuxtI18nOptions = {
   lazy: false,
   langDir: "locales",
   rootRedirect: undefined,
-  detectBrowserLanguage: {
-    alwaysRedirect: false,
-    cookieCrossOrigin: false,
-    cookieDomain: null,
-    cookieKey: "i18n_redirected",
-    cookieSecure: false,
-    fallbackLocale: "",
-    redirectOn: "root",
-    useCookie: true
-  },
+  detectBrowserLanguage: false,
   differentDomains: false,
   baseUrl: "",
   customRoutes: "page",
@@ -67,7 +77,20 @@ export const nuxtI18nOptions = {
   i18nModules: []
 }
 
-export const normalizedLocales = []
+export const normalizedLocales = [
+  {
+    code: "it",
+    iso: "it-IT",
+    name: "Italiano",
+    files: []
+  },
+  {
+    code: "en",
+    iso: "en-US",
+    name: "English",
+    files: []
+  }
+]
 
 export const NUXT_I18N_MODULE_ID = "@nuxtjs/i18n"
 export const parallelPlugin = false

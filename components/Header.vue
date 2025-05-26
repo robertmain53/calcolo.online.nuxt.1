@@ -1,13 +1,9 @@
 <template>
   <header class="bg-white dark:bg-gray-800 shadow p-4 flex justify-between">
-    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">
-      {{ $t('brand') }}
-    </NuxtLink>
-    <div class="flex items-center space-x-4">
-      <button @click="toggleDark" class="p-2">
-        <span v-if="isDark">☀️</span><span v-else>🌙</span>
-      </button>
-    </div>
+    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">Brand</NuxtLink>
+    <button @click="toggleDark" class="p-2">
+      <span v-if="isDark">☀️</span><span v-else>🌙</span>
+    </button>
   </header>
 </template>
 
@@ -16,7 +12,6 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 const route = useRoute()
 const locale = route.params.lang || 'it'
-
 const isDark = ref(false)
 function toggleDark() {
   isDark.value = !isDark.value

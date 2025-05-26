@@ -886,7 +886,7 @@ const _inlineRuntimeConfig = {
   "public": {
     "i18n": {
       "baseUrl": "",
-      "defaultLocale": "",
+      "defaultLocale": "it",
       "defaultDirection": "ltr",
       "strategy": "prefix_except_default",
       "lazy": false,
@@ -896,17 +896,21 @@ const _inlineRuntimeConfig = {
       "skipSettingLocaleOnNavigate": false,
       "differentDomains": false,
       "trailingSlash": false,
-      "locales": [],
-      "detectBrowserLanguage": {
-        "alwaysRedirect": false,
-        "cookieCrossOrigin": false,
-        "cookieDomain": "",
-        "cookieKey": "i18n_redirected",
-        "cookieSecure": false,
-        "fallbackLocale": "",
-        "redirectOn": "root",
-        "useCookie": true
-      },
+      "locales": [
+        {
+          "code": "it",
+          "iso": "it-IT",
+          "name": "Italiano",
+          "files": []
+        },
+        {
+          "code": "en",
+          "iso": "en-US",
+          "name": "English",
+          "files": []
+        }
+      ],
+      "detectBrowserLanguage": false,
       "experimental": {
         "localeDetector": "",
         "switchLocalePathLinkSSR": false,

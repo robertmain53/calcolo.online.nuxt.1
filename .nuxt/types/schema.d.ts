@@ -123,25 +123,11 @@ declare module 'nuxt/schema' {
 
       trailingSlash: boolean,
 
-      locales: Array<any>,
+      locales: Array<{
 
-      detectBrowserLanguage: {
-         alwaysRedirect: boolean,
+      }>,
 
-         cookieCrossOrigin: boolean,
-
-         cookieDomain: any,
-
-         cookieKey: string,
-
-         cookieSecure: boolean,
-
-         fallbackLocale: string,
-
-         redirectOn: string,
-
-         useCookie: boolean,
-      },
+      detectBrowserLanguage: boolean,
 
       experimental: {
          localeDetector: string,
