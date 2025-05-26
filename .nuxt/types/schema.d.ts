@@ -141,25 +141,7 @@ declare module 'nuxt/schema' {
 
       trailingSlash: boolean,
 
-      configLocales: Array<string>,
-
-      locales: {
-         en: {
-            domain: any,
-         },
-
-         it: {
-            domain: any,
-         },
-
-         es: {
-            domain: any,
-         },
-
-         fr: {
-            domain: any,
-         },
-      },
+      locales: Array<string>,
 
       detectBrowserLanguage: {
          alwaysRedirect: boolean,
@@ -185,6 +167,16 @@ declare module 'nuxt/schema' {
          switchLocalePathLinkSSR: boolean,
 
          autoImportTranslationFunctions: boolean,
+
+         typedPages: boolean,
+
+         typedOptionsAndMessages: boolean,
+
+         generatedLocaleFilePathFormat: string,
+
+         alternateLinkCanonicalQueries: boolean,
+
+         hmr: boolean,
       },
 
       multiDomainLocales: boolean,

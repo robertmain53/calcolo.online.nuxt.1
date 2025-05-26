@@ -103,6 +103,12 @@
       "#internal/nuxt/paths": [
         "../node_modules/nuxt/dist/core/runtime/nitro/utils/paths"
       ],
+      "#robots": [
+        "./robots"
+      ],
+      "#unhead/composables": [
+        "../node_modules/nuxt/dist/head/runtime/composables/v3"
+      ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
       ],
@@ -124,17 +130,14 @@
       "ufo": [
         "../node_modules/ufo/dist/index"
       ],
-      "is-https": [
-        "../node_modules/is-https/dist/index"
-      ],
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables/index"
       ],
-      "#robots": [
-        "./robots"
+      "#internal-i18n-types": [
+        "../node_modules/@nuxtjs/i18n/dist/types"
       ],
-      "#unhead/composables": [
-        "../node_modules/nuxt/dist/head/runtime/composables/v3"
+      "#nuxt-i18n/logger": [
+        "./nuxt-i18n-logger"
       ]
     },
     "lib": [

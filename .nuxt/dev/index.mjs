@@ -897,26 +897,12 @@ const _inlineRuntimeConfig = {
       "skipSettingLocaleOnNavigate": false,
       "differentDomains": false,
       "trailingSlash": false,
-      "configLocales": [
+      "locales": [
         "en",
         "it",
         "es",
         "fr"
       ],
-      "locales": {
-        "en": {
-          "domain": ""
-        },
-        "it": {
-          "domain": ""
-        },
-        "es": {
-          "domain": ""
-        },
-        "fr": {
-          "domain": ""
-        }
-      },
       "detectBrowserLanguage": {
         "alwaysRedirect": false,
         "cookieCrossOrigin": false,
@@ -930,7 +916,12 @@ const _inlineRuntimeConfig = {
       "experimental": {
         "localeDetector": "",
         "switchLocalePathLinkSSR": false,
-        "autoImportTranslationFunctions": false
+        "autoImportTranslationFunctions": false,
+        "typedPages": true,
+        "typedOptionsAndMessages": false,
+        "generatedLocaleFilePathFormat": "absolute",
+        "alternateLinkCanonicalQueries": false,
+        "hmr": true
       },
       "multiDomainLocales": false
     }

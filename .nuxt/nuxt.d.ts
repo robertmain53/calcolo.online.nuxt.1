@@ -11,7 +11,6 @@
 /// <reference path="types/build.d.ts" />
 /// <reference path="types/schema.d.ts" />
 /// <reference path="types/app.config.d.ts" />
-/// <reference path="types/i18n-plugin.d.ts" />
 /// <reference types="vue-router" />
 /// <reference path="types/middleware.d.ts" />
 /// <reference path="types/nitro-middleware.d.ts" />
@@ -20,6 +19,7 @@
 /// <reference path="imports.d.ts" />
 /// <reference path="types/imports.d.ts" />
 /// <reference path="schema/nuxt.schema.d.ts" />
+/// <reference path="types/i18n-plugin.d.ts" />
 /// <reference path="types/nitro.d.ts" />
 
 export {}

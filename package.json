@@ -8,10 +8,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^8.0.0",
+   "@nuxtjs/i18n": "^9.3.0",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.0.0",
-    "nuxt": "^3.10.0"
+   "nuxt": "^3.16.0"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "github:nuxt-modules/sitemap"
