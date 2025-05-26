@@ -3,9 +3,8 @@
     "slug": "voltage-divider",
     "title": "Voltage Divider",
     "description": "Calculate output voltage using input voltage and resistors R1, R2.",
-    "category": "Electrical",
+     "category": "Electrical",
     "subcategory": "Voltage",
-    "draft": false,
     "inputs": [
       {
         "label": "Vin",
@@ -36,8 +35,7 @@
     "title": "Ohm's Law",
     "description": "Calculate current from voltage and resistance.",
     "category": "Electrical",
-    "subcategory": "Resistance",
-    "draft": true, 
+    "subcategory": "Ohm",
     "inputs": [
       {
         "label": "Voltage (V)",

@@ -2,19 +2,9 @@
 // @ts-nocheck
 
 
-export const localeCodes =  [
-  "en",
-  "it",
-  "es",
-  "fr"
-]
+export const localeCodes =  []
 
-export const localeLoaders = {
-  en: [],
-  it: [],
-  es: [],
-  fr: []
-}
+export const localeLoaders = {}
 
 export const vueI18nConfigs = []
 
@@ -45,13 +35,8 @@ export const nuxtI18nOptions = {
     defaultSFCLang: "json",
     globalSFCScope: false
   },
-  locales: [
-    "en",
-    "it",
-    "es",
-    "fr"
-  ],
-  defaultLocale: "en",
+  locales: [],
+  defaultLocale: "",
   defaultDirection: "ltr",
   routesNameSeparator: "___",
   trailingSlash: false,
@@ -82,24 +67,7 @@ export const nuxtI18nOptions = {
   i18nModules: []
 }
 
-export const normalizedLocales = [
-  {
-    language: "en",
-    code: "en"
-  },
-  {
-    language: "it",
-    code: "it"
-  },
-  {
-    language: "es",
-    code: "es"
-  },
-  {
-    language: "fr",
-    code: "fr"
-  }
-]
+export const normalizedLocales = []
 
 export const NUXT_I18N_MODULE_ID = "@nuxtjs/i18n"
 export const parallelPlugin = false

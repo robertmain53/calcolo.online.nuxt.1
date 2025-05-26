@@ -1,5 +1,5 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, setHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
@@ -28,7 +28,6 @@ import { AsyncLocalStorage } from 'node:async_hooks';
 import { stringify, uneval } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/devalue/index.js';
 import { captureRawStackTrace, parseRawStackTrace } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/errx/dist/index.js';
 import { isVNode, toValue, isRef } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/vue/index.mjs';
-import robots from 'file:///workspaces/calcolo.online.nuxt.1/.nuxt/robots.mjs';
 import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/unhead/dist/server.mjs';
 import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/unhead/dist/plugins.mjs';
 import { walkResolver } from 'file:///workspaces/calcolo.online.nuxt.1/node_modules/unhead/dist/utils.mjs';
@@ -887,7 +886,7 @@ const _inlineRuntimeConfig = {
   "public": {
     "i18n": {
       "baseUrl": "",
-      "defaultLocale": "en",
+      "defaultLocale": "",
       "defaultDirection": "ltr",
       "strategy": "prefix_except_default",
       "lazy": false,
@@ -897,12 +896,7 @@ const _inlineRuntimeConfig = {
       "skipSettingLocaleOnNavigate": false,
       "differentDomains": false,
       "trailingSlash": false,
-      "locales": [
-        "en",
-        "it",
-        "es",
-        "fr"
-      ],
+      "locales": [],
       "detectBrowserLanguage": {
         "alwaysRedirect": false,
         "cookieCrossOrigin": false,
@@ -1390,78 +1384,6 @@ const plugins = [
 _cm7sQ1gLbI0EqBxdm4tXnYuXY7G33ZIe09vUHUn3H8
 ];
 
-const _Hem4se = defineEventHandler(async (event) => {
-  setHeader(event, "Content-Type", "text/plain");
-  return render(await getRules(robots, event.req));
-});
-var Correspondence = /* @__PURE__ */ ((Correspondence2) => {
-  Correspondence2[Correspondence2["User-agent"] = 0] = "User-agent";
-  Correspondence2[Correspondence2["Crawl-delay"] = 1] = "Crawl-delay";
-  Correspondence2[Correspondence2["Disallow"] = 2] = "Disallow";
-  Correspondence2[Correspondence2["Allow"] = 3] = "Allow";
-  Correspondence2[Correspondence2["Host"] = 4] = "Host";
-  Correspondence2[Correspondence2["Sitemap"] = 5] = "Sitemap";
-  Correspondence2[Correspondence2["Clean-param"] = 6] = "Clean-param";
-  Correspondence2[Correspondence2["Comment"] = 7] = "Comment";
-  Correspondence2[Correspondence2["BlankLine"] = 8] = "BlankLine";
-  return Correspondence2;
-})(Correspondence || {});
-function render(rules) {
-  return rules.map((rule) => {
-    const value = String(rule.value).trim();
-    switch (rule.key.toString()) {
-      case Correspondence[7 /* Comment */]:
-        return `# ${value}`;
-      case Correspondence[8 /* BlankLine */]:
-        return "";
-      default:
-        return `${rule.key}: ${value}`;
-    }
-  }).join("\n");
-}
-async function getRules(options, req) {
-  const correspondences = {
-    useragent: "User-agent",
-    crawldelay: "Crawl-delay",
-    disallow: "Disallow",
-    allow: "Allow",
-    host: "Host",
-    sitemap: "Sitemap",
-    cleanparam: "Clean-param",
-    comment: "Comment",
-    blankline: "BlankLine"
-  };
-  const rules = [];
-  const parseRule = (rule) => {
-    const parsed = {};
-    for (const [key, value] of Object.entries(rule)) {
-      parsed[String(key).toLowerCase().replace(/[\W_]+/g, "")] = value;
-    }
-    return parsed;
-  };
-  for (const rule of Array.isArray(options) ? options : [options]) {
-    const parsed = parseRule(rule);
-    const keys = Object.keys(correspondences).filter((key) => typeof parsed[key] !== "undefined");
-    for (const key of keys) {
-      const parsedKey = parsed[key];
-      let values;
-      values = typeof parsedKey === "function" ? await parsedKey(req) : parsedKey;
-      values = Array.isArray(values) ? values : [values];
-      for (const value of values) {
-        const v = typeof value === "function" ? await value(req) : value;
-        if (v === false) {
-          continue;
-        }
-        rules.push({
-          key: correspondences[key],
-          value: v
-        });
-      }
-    }
-  }
-  return rules;
-}
-
 const VueResolver = (_, value) => {
   return isRef(value) ? toValue(value) : value;
 };
@@ -1784,7 +1706,6 @@ const _lazy_ay3oLX = () => Promise.resolve().then(function () { return renderer$
 
 const handlers = [
   { route: '/__nuxt_error', handler: _lazy_ay3oLX, lazy: true, middleware: false, method: undefined },
-  { route: '/robots.txt', handler: _Hem4se, lazy: false, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_ay3oLX, lazy: true, middleware: false, method: undefined }
 ];

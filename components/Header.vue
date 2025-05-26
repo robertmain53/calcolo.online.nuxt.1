@@ -1,26 +1,32 @@
-
 <template>
-  <header class="bg-gray-800 text-white py-4">
-    <div class="container mx-auto flex justify-between items-center px-4">
-      <NuxtLink to="/" class="text-xl font-bold">{{ $t('brand') }}</NuxtLink>
-      <input v-model="query" @keyup.enter="search" :placeholder="$t('search')" class="text-black px-2 py-1 rounded" />
-      <nav class="space-x-4 ml-4">
-        <NuxtLink v-for="lang in ['en', 'it', 'es', 'fr']" :key="lang" :to="`/${lang}`" class="hover:underline">
-          {{ lang.toUpperCase() }}
-        </NuxtLink>
-      </nav>
+  <header class="bg-white dark:bg-gray-800 shadow p-4 flex justify-between">
+    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">
+      {{ $t('brand') }}
+    </NuxtLink>
+    <div class="flex items-center space-x-4">
+      <button @click="toggleDark" class="p-2">
+        <span v-if="isDark">☀️</span><span v-else>🌙</span>
+      </button>
     </div>
   </header>
 </template>
 
-
-
 <script setup>
-import { ref } from 'vue'
-const query = ref('')
-function search() {
-  if (query.value) {
-    navigateTo(`/en/search?q=${encodeURIComponent(query.value)}`)
-  }
+import { ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
+const locale = route.params.lang || 'it'
+
+const isDark = ref(false)
+function toggleDark() {
+  isDark.value = !isDark.value
+  document.documentElement.classList.toggle('dark', isDark.value)
+  localStorage.setItem('darkMode', isDark.value)
 }
+onMounted(() => {
+  const saved = localStorage.getItem('darkMode')
+  const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches
+  isDark.value = saved==='true' || (saved===null && prefers)
+  document.documentElement.classList.toggle('dark', isDark.value)
+})
 </script>

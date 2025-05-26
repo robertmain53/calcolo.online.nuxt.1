@@ -10,13 +10,16 @@
   "dependencies": {
     "@nuxtjs/i18n": "^9.3.0",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxtjs/tailwindcss": "^6.0.0",
     "cheerio": "^1.0.0",
     "node-fetch": "^3.3.2",
     "nuxt": "^3.16.0",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@nuxtjs/sitemap": "github:nuxt-modules/sitemap"
+    "@nuxtjs/sitemap": "github:nuxt-modules/sitemap",
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }

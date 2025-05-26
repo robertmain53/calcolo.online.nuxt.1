@@ -1,18 +1,8 @@
-import { defineNuxtConfig } from 'nuxt/config'
-
+// nuxt.config.ts
 export default defineNuxtConfig({
-  nitro: { compatibilityDate: '2025-05-25' },
-  modules: [
-    '@nuxtjs/i18n',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/robots'
-  ],
-  i18n: {
-    locales: ['en', 'it', 'es', 'fr'],
-    defaultLocale: 'en',
-    vueI18n: './i18n.config.ts'
-  },
-  tailwindcss: {
-    viewer: false
-  }
+  modules: ['@nuxtjs/tailwindcss','@nuxtjs/i18n'],
+  css: ['@/assets/css/tailwind.css'],
+  tailwindcss: { configPath: 'tailwind.config.js' },
+  i18n: { /* la tua config */ },
+  nitro: { compatibilityDate: '2025-05-26' }
 })

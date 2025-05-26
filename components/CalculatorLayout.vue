@@ -14,8 +14,10 @@
     </template>
   </nav>
 
+<template>
+  <!-- questa grid dipende da Tailwind per funzionare -->
   <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-    <aside class="md:col-span-1 bg-gray-50 p-4 border rounded">
+    <aside class="md:col-span-1 …">
       <h3 class="font-bold mb-2">{{ $t('tools') /* o testo statico */ }}</h3>
       <ul class="text-sm space-y-1">
         <li v-for="link in related" :key="link">
@@ -75,6 +77,9 @@
       </div>
     </article>
   </div>
+
+ </template>
+
 </template>
 
 <script setup>
