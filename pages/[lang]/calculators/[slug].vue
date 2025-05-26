@@ -38,13 +38,15 @@
 import { reactive, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import calculators from '~/content/calculators.json'
+import rapidTools from '~/content/rapidTablesCalculators.json'
 import { fallbackFormulas } from '~/content/fallbackFormulas'
 import CalculatorLayout from '~/components/CalculatorLayout.vue'
 
 // 1. Recupera lo slug e il calcolatore
 const route = useRoute()
 const slug = route.params.slug
-const calculator = calculators.find(c => c.slug === slug)
+const allCalcs = [...calculators, ...rapidTools]
+const calculator = allCalcs.find(c => c.slug === slug)
 
 // 2. Inizializza il form come oggetto reactive con valori null
 const form = reactive({})

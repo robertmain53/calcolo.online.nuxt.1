@@ -1,18 +1,36 @@
-
 <template>
-  <div class="p-6">
-    <h1 class="text-2xl font-bold mb-4">{{ $t('siteTitle') }}</h1>
-    <div>
-      <h2 class="text-xl font-semibold mb-2">Categories</h2>
-      <ul>
-        <li v-for="cat in categories" :key="cat">
-          <NuxtLink :to="`/${$route.params.lang}/${cat.toLowerCase()}`">{{ cat }}</NuxtLink>
+  <CalculatorLayout>
+    <div class="p-4">
+      <h1 class="text-3xl font-bold mb-6">Tutti i Calcolatori</h1>
+      <ul class="grid md:grid-cols-2 gap-4">
+        <li
+          v-for="tool in allTools"
+          :key="tool.slug"
+          class="p-4 border rounded hover:shadow"
+        >
+          <NuxtLink
+            :to="`/${locale}/calculators/${tool.slug}`"
+            class="block text-lg font-semibold mb-1"
+          >
+            {{ tool.title }}
+          </NuxtLink>
+          <p class="text-sm text-gray-600">{{ tool.description }}</p>
         </li>
       </ul>
     </div>
-  </div>
+  </CalculatorLayout>
 </template>
 
 <script setup>
-import categories from '~/content/categories.json'
+import calculators from '~/content/calculators.json'
+import rapidTools from '~/content/rapidTablesCalculators.json'
+import { useLocalePath, useI18n } from 'vue-i18n'
+import CalculatorLayout from '~/components/CalculatorLayout.vue'
+
+const { locale } = useI18n()
+
+// Unisco entrambi gli array e li ordino (opzionale)
+const allTools = [...calculators, ...rapidTools].sort((a, b) =>
+  a.title.localeCompare(b.title, locale)
+)
 </script>
