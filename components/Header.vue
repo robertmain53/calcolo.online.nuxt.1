@@ -20,10 +20,10 @@
           {{ loc.toUpperCase() }}
         </button>
       </div>
-      <!-- Dark-mode toggle (se vuoi tenerlo) -->
+      <!-- Dark-mode toggle (se vuoi tenerlo) 
       <button @click="toggleDark" class="p-2" :aria-label="isDark ? $t('lightMode') : $t('darkMode')">
         <span v-if="isDark">☀️</span><span v-else>🌙</span>
-      </button>
+      </button> -->
     </div>
   </header>
 </template>
