@@ -38,7 +38,7 @@ const toolUrls = allUrls;
     // Salva in JSON
     const outDir = path.resolve(process.cwd(), 'data');
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
-    const outPath = path.join(outDir, 'Calcolo.json');
+    const outPath = path.join(outDir, 'Calcololist.json');
     fs.writeFileSync(outPath, JSON.stringify(toolUrls, null, 2), 'utf-8');
     console.log(`Elenco salvato in ${outPath}`);
   } catch (err) {

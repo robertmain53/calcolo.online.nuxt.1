@@ -1,0 +1,41 @@
+{
+  "calcolatore-percentuale": [
+    { "inputs": { "numero": 200, "percentuale": 10 }, "expected": 20 },
+    { "inputs": { "numero": 50,  "percentuale":  5 }, "expected": 2.5 }
+  ],
+  "calcolatore-di-numero-di-moli": [
+    { "inputs": { "massa": 18, "massaMolecolare": 18 }, "expected": 1 },
+    { "inputs": { "massa": 36, "massaMolecolare": 18 }, "expected": 2 }
+  ],
+  "calcolatore-varianza": [
+    { "inputs": { "x": [2, 4, 6, 8] }, "expected": 5 },
+    { "inputs": { "x": [1, 1, 1, 1] }, "expected": 0 }
+  ],
+  "calcolatore-di-ph": [
+    { "inputs": { "Hconcentration": 1e-7 }, "expected": 7 },
+    { "inputs": { "Hconcentration": 1e-3 }, "expected": 3 }
+  ],
+  "calcolatore-velocita": [
+    { "inputs": { "distance": 100, "time": 10 }, "expected": 10 },
+    { "inputs": { "distance": 150, "time": 30 }, "expected": 5 }
+  ],
+  "legge-di-ohm": [
+    { "inputs": { "resistenza": 10, "corrente": 2 }, "expected": 20 },
+    { "inputs": { "resistenza": 5,  "corrente": 0.5 }, "expected": 2.5 }
+  ],
+  "calcolatore-di-potenza": [
+    { "inputs": { "lavoro": 100, "tempo": 10 }, "expected": 10 },
+    { "inputs": { "lavoro": 50,  "tempo": 5  }, "expected": 10 }
+  ],
+  "calcolatore-diluizione": [
+    { "inputs": { "M1": 1, "V1": 1, "M2": 0.5, "V2": 2 }, "expected": 1 },
+    { "inputs": { "M1": 2, "V1": 1, "M2": 1,   "V2": 2 }, "expected": 1 }
+  ],
+  "calcolatore-di-moda": [
+    { "inputs": { "x": [1,2,2,3,3,3,4] }, "expected": 3 }
+  ],
+  "calcolatore-media-aritmetica": [
+    { "inputs": { "x": [2,4,6,8] }, "expected": 5 },
+    { "inputs": { "x": [1,2,3] },   "expected": 2 }
+  ]
+}

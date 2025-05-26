@@ -14,6 +14,13 @@
     "resistance": "Resistenza",
     "finance": "Finanza"
   },
-  "allCalculators": "Tutti i calcolatori"
+  "allCalculators": "Tutti i calcolatori",
+   "seeAlso": "Collegamenti correlati",
+  "tools": "Strumenti",
+  "loading": "Caricamento…",
+  "calculatorNotFound": "Calcolatore non trovato.",
+  "noInputsDefined": "Nessun input definito.",
+  "result": "Risultato",
+  "noFormulaDefined": "Formula non definita."
 }
 

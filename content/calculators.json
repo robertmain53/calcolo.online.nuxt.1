@@ -33,6 +33,10 @@
   {
     "slug": "ohms-law",
     "title": "Ohm's Law",
+    "alternativetitle": "Legge di Ohm",
+    "metatitle": "Ohm's Law – Calcolo corrente, tensione, resistenza",
+    "metadescription": "Calcola corrente (I), tensione (V) o resistenza (R) usando la legge di Ohm.",
+    "intro": "### Introduzione\nLa legge di Ohm descrive la relazione tra tensione, corrente e resistenza.",
     "description": "Calculate current from voltage and resistance.",
     "category": "Electrical",
     "subcategory": "Ohm",
@@ -47,14 +51,15 @@
       }
     ],
     "formula": "resistance * voltage ",
+    "resultUnit": "A",
     "author": "Calcolo Admin",
     "created": "2024-01-01",
+     "outro": "### Nota\nAssicurati che R≠0 per evitare errori di divisione.",
+    "seealso": ["voltage-divider","resistance-calculator"],
+    "tools": ["power-calculator","energy-calculator"],
     "modified": "2025-05-25",
-     "draft": false,       
-   "featured": true,      
-    "seeAlso": [
-      "voltage-divider"
-    ],
+    "draft": false,       
+    "featured": true,      
     "content": "## Ohm's Law\nFormula: `I = V / R`",
     "feedback": "Let us know if this formula fails."
   },

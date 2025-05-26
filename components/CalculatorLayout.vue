@@ -8,12 +8,9 @@
     <aside class="md:col-span-1 bg-gray-50 p-4 rounded">
       <h2 class="font-semibold mb-3">{{ $t('tools') }}</h2>
       <ul class="space-y-1 text-sm">
-        <li v-for="see in calculator.seeAlso || []" :key="see">
-          <NuxtLink
-            :to="`/${locale}/calculators/${see}`"
-            class="text-blue-600 hover:underline"
-          >
-            {{ see }}
+        <li v-for="slug in tools" :key="slug">
+          <NuxtLink :to="`/${locale}/calculators/${slug}`" class="text-blue-600 hover:underline">
+            {{ getAlternateTitle(slug) }}
           </NuxtLink>
         </li>
       </ul>
@@ -24,15 +21,23 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
+import calculators from '~/content/calculators.json'
+import rapidTools from '~/content/rapidTablesCalculators.json'
+import calcolo from '~/content/Calcolo.json'
+
+const props = defineProps({
+  calculator: { type: Object, required: true },
+  tools:      { type: Array,  default: () => [] }
+})
 
 const route = useRoute()
 const locale = computed(() => route.params.lang || 'it')
 
-// Ricevo il prop "calculator" dal genitore
-defineProps({
-  calculator: {
-    type: Object,
-    required: true
-  }
-})
+
+// Helper per alternativetitle
+function getAlternateTitle(slug) {
+  const item =
+  calculators.concat(rapidTools, calcolo).find(c => c.slug === slug)
+  return item?.alternativetitle || item?.title || slug
+}
 </script>

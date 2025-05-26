@@ -1,0 +1,668 @@
+[
+  {
+    "slug": "calcolatore-del-peso-in-gravidanza-guida-completa",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "idratazione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "conception-date-and-due-date-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-fattoriali-permutazioni",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-crc",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "costante-di-avogadro",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-notazione-scientifica",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-complemento-due",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-sistemi-numerici",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-percentuale",
+    "case": {
+      "inputs": {
+        "numero": 200,
+        "percentuale": 10
+      },
+      "expected": 20
+    },
+    "error": "errore esecuzione: numero is not defined"
+  },
+  {
+    "slug": "calcolatore-percentuale",
+    "case": {
+      "inputs": {
+        "numero": 50,
+        "percentuale": 5
+      },
+      "expected": 2.5
+    },
+    "error": "errore esecuzione: numero is not defined"
+  },
+  {
+    "slug": "calcolatore-di-numero-di-moli",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "introduzione-alle-formule-chimiche",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-normalita",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-diluizione",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "cal-corsa",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-percentuale-in-massa",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-molarita",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "bilanciatore-di-reazioni-chimiche",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-ph",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "calcolatore-della-massa-molare",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-consumo-bolletta-elettrica",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-probabilita-composta",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-probabilita-semplice",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "intervallo-di-confidenza",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-moda",
+    "error": "errore creazione funzione: Unexpected token ')'"
+  },
+  {
+    "slug": "calcolatore-della-trasformata-di-lapache",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "regressione-lineare",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-correlazione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-varianza",
+    "error": "errore creazione funzione: Unexpected token ')'"
+  },
+  {
+    "slug": "calcolatore-probabilita",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-mediana",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-media-aritmetica",
+    "error": "errore creazione funzione: Unexpected token ')'"
+  },
+  {
+    "slug": "calcolatore-di-potenza",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "calcolatore-forza",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-energia-cinetica",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-di-pressione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "legge-di-ohm",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "calcolatore-energia-potenziale",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-velocita",
+    "error": "errore creazione funzione: Unexpected token 'function'"
+  },
+  {
+    "slug": "come-si-calcola-il-consumo-in-bolletta",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "difference-between-energy-and-power",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "differenza-tra-energia-e-potenza",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "da-watt-a-btu",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "watt-to-ampere-conversion-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "vat-calculation",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "watt-to-btu-h",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "ovulation-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-ovulazione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "piedi-metri",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "quanto-si-vince-al-10elotto",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "valore-attuale",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "watt-in-ampere",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-scientifica-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-frazioni",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-calorie-alimentazione-corretta",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "codice-fiscale-diretto",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-delliva-calcolatore-e-guida-dettagliata",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "media-ponderata-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "fraction-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-derivate-parziali",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-derivate",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "il-tuo-peso-sui-pianeti",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "conversione-piedi-cm",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "convert-btu-h-to-watts",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "btu-watt-conversione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "online-scientific-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "curvatura-terra",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "123aaef9bcfcf5f3",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-data-concepimento",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "interessi-semplici-composti",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "wire-size-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "power-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "spf-calculator-protect-your-skin-from-the-sun",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-numero-armonico",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "teoria-della-legge-di-ohm",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-potenza-elettrica",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "4098",
+    "error": "record non trovato"
+  },
+  {
+    "slug": "present-value-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "feet-centimeters-converter",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "spf",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "derivatives-calculation",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "integral-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "how-many-hours-of-sleep-are-enough",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "tasso-alcolemico",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "roi",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-perimetro-trapezio",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-rapporto-di-3-numeri",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-superficie-piramide-quadrata",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-volume-del-cono",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-circonferenza-cilindro",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-multipla-comune",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-numeri-complessi",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "convergenza-serie-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "determinante-matrice",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "risolvi-logaritmi",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-della-rata-del-mutuo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-per-la-conversione-degli-oppiacei",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-della-sezione-del-cavo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "percentage-calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "convertitore-watt-in-kwh",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "ebit",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "scorporo-fattura",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "ebitda",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-dei-giorni-tra-due-date",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "convertitore-da-jpg-a-pdf",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-per-misureare-la-sonnolenza-diurna-con-la-scala-epworth-ess",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "quante-ore-dormire",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "convertitore-di-grammi-in-cucchiai-e-cucchiaini",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "generatore-di-numeri",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "indice-massa-corporea-bmi",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "data-parto-presunta",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "addizione-di-numeri-decimali",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calorie-ciccolato",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "pdf-in-word",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "unire-pdf",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-energia-di-attivazione",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "stima-calorie-zaino",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "giorni-tra-due-date",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "caffeina",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "zone-fc-ciclismo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "eta-cane",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-tdee",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "thc",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calorie-bevande-alcoliche",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "email-carriera",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "numero-giorni",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "carbon-footprint",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-dimensioni-televisore",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "mah-durata-batteria",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "vo2max",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "quante-once-misura-una-tazza",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-circonferenza",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-peso-del-cane",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-ammortamento",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatrice-trigonometrica-triangolo-rettangolo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "divisione-tra-polinomi-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "equazioni-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "radice-quadrata-di-64",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-foil",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-funzioni",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-integrali",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-inverso-funzione-seno",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-limiti",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-cambiamento-assoluto",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-daltezza-inclinata",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-decimale",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-dellarea-di-un-poligono-regolare",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-della-distanza-euclidea",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-ettagono",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-fattore-di-scala-triangolo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "riduzione-ai-minimi-termini-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "risolutore-equazioni-differenziali",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "test-chi-quadro-calcolo-online",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "triangolo-isoscele",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "area-rombo",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-angolo-tra-due-vettori",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-area-triangolo-scaleno",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolatore-deviazione-standard",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calcolo-area-quadrato",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "calculator",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "decomposizione-in-frazioni-parziali",
+    "message": "nessun test definito"
+  },
+  {
+    "slug": "divisioni-in-colonna-online",
+    "message": "nessun test definito"
+  }
+]

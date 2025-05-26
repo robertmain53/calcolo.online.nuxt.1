@@ -1,0 +1,3541 @@
+[
+  {
+    "slug": "calcolatore-del-peso-in-gravidanza-guida-completa",
+    "url": "https://calcolo.online/app/run/calcolatore-del-peso-in-gravidanza-guida-completa",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "idratazione",
+    "url": "https://calcolo.online/app/run/idratazione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "conception-date-and-due-date-calculator",
+    "url": "https://calcolo.online/en/app/run/conception-date-and-due-date-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-fattoriali-permutazioni",
+    "url": "https://calcolo.online/app/run/calcolatore-fattoriali-permutazioni",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-crc",
+    "url": "https://calcolo.online/app/run/calcolatore-crc",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "costante-di-avogadro",
+    "url": "https://calcolo.online/app/run/costante-di-avogadro",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-notazione-scientifica",
+    "url": "https://calcolo.online/app/run/calcolatore-notazione-scientifica",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-complemento-due",
+    "url": "https://calcolo.online/app/run/calcolatore-complemento-due",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-sistemi-numerici",
+    "url": "https://calcolo.online/app/run/calcolatore-sistemi-numerici",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-percentuale",
+    "url": "https://calcolo.online/app/run/calcolatore-percentuale",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-numero-di-moli",
+    "url": "https://calcolo.online/app/run/calcolatore-di-numero-di-moli",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "introduzione-alle-formule-chimiche",
+    "url": "https://calcolo.online/app/run/introduzione-alle-formule-chimiche",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-normalita",
+    "url": "https://calcolo.online/app/run/calcolatore-di-normalita",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-diluizione",
+    "url": "https://calcolo.online/app/run/calcolatore-diluizione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "cal-corsa",
+    "url": "https://calcolo.online/app/run/cal-corsa",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-percentuale-in-massa",
+    "url": "https://calcolo.online/app/run/calcolatore-di-percentuale-in-massa",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-molarita",
+    "url": "https://calcolo.online/app/run/calcolatore-di-molarita",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "bilanciatore-di-reazioni-chimiche",
+    "url": "https://calcolo.online/app/run/bilanciatore-di-reazioni-chimiche",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-ph",
+    "url": "https://calcolo.online/app/run/calcolatore-di-ph",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-della-massa-molare",
+    "url": "https://calcolo.online/app/run/calcolatore-della-massa-molare",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-consumo-bolletta-elettrica",
+    "url": "https://calcolo.online/app/run/calcolatore-consumo-bolletta-elettrica",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-probabilita-composta",
+    "url": "https://calcolo.online/app/run/calcolatore-probabilita-composta",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-probabilita-semplice",
+    "url": "https://calcolo.online/app/run/calcolatore-probabilita-semplice",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "intervallo-di-confidenza",
+    "url": "https://calcolo.online/app/run/intervallo-di-confidenza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-moda",
+    "url": "https://calcolo.online/app/run/calcolatore-di-moda",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-della-trasformata-di-lapache",
+    "url": "https://calcolo.online/app/run/calcolatore-della-trasformata-di-lapache",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "regressione-lineare",
+    "url": "https://calcolo.online/app/run/regressione-lineare",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-correlazione",
+    "url": "https://calcolo.online/app/run/calcolatore-di-correlazione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-varianza",
+    "url": "https://calcolo.online/app/run/calcolatore-varianza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-probabilita",
+    "url": "https://calcolo.online/app/run/calcolatore-probabilita",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-mediana",
+    "url": "https://calcolo.online/app/run/calcolatore-di-mediana",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-media-aritmetica",
+    "url": "https://calcolo.online/app/run/calcolatore-media-aritmetica",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-potenza",
+    "url": "https://calcolo.online/app/run/calcolatore-di-potenza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-forza",
+    "url": "https://calcolo.online/app/run/calcolatore-forza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-energia-cinetica",
+    "url": "https://calcolo.online/app/run/calcolatore-energia-cinetica",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-di-pressione",
+    "url": "https://calcolo.online/app/run/calcolatore-di-pressione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "legge-di-ohm",
+    "url": "https://calcolo.online/app/run/legge-di-ohm",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-energia-potenziale",
+    "url": "https://calcolo.online/app/run/calcolatore-energia-potenziale",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-velocita",
+    "url": "https://calcolo.online/app/run/calcolatore-velocita",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "come-si-calcola-il-consumo-in-bolletta",
+    "url": "https://calcolo.online/app/run/come-si-calcola-il-consumo-in-bolletta",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "difference-between-energy-and-power",
+    "url": "https://calcolo.online/en/app/run/difference-between-energy-and-power",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "differenza-tra-energia-e-potenza",
+    "url": "https://calcolo.online/app/run/differenza-tra-energia-e-potenza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "da-watt-a-btu",
+    "url": "https://calcolo.online/app/run/da-watt-a-btu",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "watt-to-ampere-conversion-calculator",
+    "url": "https://calcolo.online/en/app/run/watt-to-ampere-conversion-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "vat-calculation",
+    "url": "https://calcolo.online/en/app/run/vat-calculation",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "watt-to-btu-h",
+    "url": "https://calcolo.online/en/app/run/watt-to-btu-h",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "ovulation-calculator",
+    "url": "https://calcolo.online/en/app/run/ovulation-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-ovulazione",
+    "url": "https://calcolo.online/app/run/calcolo-ovulazione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "piedi-metri",
+    "url": "https://calcolo.online/app/run/piedi-metri",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "quanto-si-vince-al-10elotto",
+    "url": "https://calcolo.online/app/run/quanto-si-vince-al-10elotto",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "valore-attuale",
+    "url": "https://calcolo.online/app/run/valore-attuale",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "watt-in-ampere",
+    "url": "https://calcolo.online/app/run/watt-in-ampere",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-scientifica-online",
+    "url": "https://calcolo.online/app/run/calcolatrice-scientifica-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-frazioni",
+    "url": "https://calcolo.online/app/run/calcolatrice-frazioni",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-calorie-alimentazione-corretta",
+    "url": "https://calcolo.online/app/run/calcolo-calorie-alimentazione-corretta",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "codice-fiscale-diretto",
+    "url": "https://calcolo.online/app/run/codice-fiscale-diretto",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-delliva-calcolatore-e-guida-dettagliata",
+    "url": "https://calcolo.online/app/run/calcolo-delliva-calcolatore-e-guida-dettagliata",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "media-ponderata-online",
+    "url": "https://calcolo.online/app/run/media-ponderata-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "fraction-calculator",
+    "url": "https://calcolo.online/en/app/run/fraction-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-derivate-parziali",
+    "url": "https://calcolo.online/app/run/calcolo-derivate-parziali",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-derivate",
+    "url": "https://calcolo.online/app/run/calcolatore-derivate",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "il-tuo-peso-sui-pianeti",
+    "url": "https://calcolo.online/app/run/il-tuo-peso-sui-pianeti",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "conversione-piedi-cm",
+    "url": "https://calcolo.online/app/run/conversione-piedi-cm",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "convert-btu-h-to-watts",
+    "url": "https://calcolo.online/en/app/run/convert-btu-h-to-watts",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "btu-watt-conversione",
+    "url": "https://calcolo.online/app/run/btu-watt-conversione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "online-scientific-calculator",
+    "url": "https://calcolo.online/en/app/run/online-scientific-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "curvatura-terra",
+    "url": "https://calcolo.online/app/run/curvatura-terra",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "123aaef9bcfcf5f3",
+    "url": "https://calcolo.online/app/run/123aaef9bcfcf5f3",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-data-concepimento",
+    "url": "https://calcolo.online/app/run/calcolo-data-concepimento",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "interessi-semplici-composti",
+    "url": "https://calcolo.online/app/run/interessi-semplici-composti",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "wire-size-calculator",
+    "url": "https://calcolo.online/en/app/run/wire-size-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "power-calculator",
+    "url": "https://calcolo.online/en/app/run/power-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "spf-calculator-protect-your-skin-from-the-sun",
+    "url": "https://calcolo.online/en/app/run/spf-calculator-protect-your-skin-from-the-sun",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-numero-armonico",
+    "url": "https://calcolo.online/app/run/calcolatore-numero-armonico",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "teoria-della-legge-di-ohm",
+    "url": "https://calcolo.online/app/run/teoria-della-legge-di-ohm",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-potenza-elettrica",
+    "url": "https://calcolo.online/app/run/calcolo-potenza-elettrica",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "4098",
+    "url": "https://calcolo.online/app/run/4098",
+    "error": "Record non trovato"
+  },
+  {
+    "slug": "present-value-calculator",
+    "url": "https://calcolo.online/en/app/run/present-value-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "feet-centimeters-converter",
+    "url": "https://calcolo.online/en/app/run/feet-centimeters-converter",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "spf",
+    "url": "https://calcolo.online/app/run/spf",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "derivatives-calculation",
+    "url": "https://calcolo.online/en/app/run/derivatives-calculation",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "integral-calculator",
+    "url": "https://calcolo.online/en/app/run/integral-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "how-many-hours-of-sleep-are-enough",
+    "url": "https://calcolo.online/en/app/run/how-many-hours-of-sleep-are-enough",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "tasso-alcolemico",
+    "url": "https://calcolo.online/app/run/tasso-alcolemico",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "roi",
+    "url": "https://calcolo.online/app/run/roi",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-perimetro-trapezio",
+    "url": "https://calcolo.online/app/run/calcolatore-perimetro-trapezio",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-rapporto-di-3-numeri",
+    "url": "https://calcolo.online/app/run/calcolatore-rapporto-di-3-numeri",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-superficie-piramide-quadrata",
+    "url": "https://calcolo.online/app/run/calcolatore-superficie-piramide-quadrata",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-volume-del-cono",
+    "url": "https://calcolo.online/app/run/calcolatore-volume-del-cono",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-circonferenza-cilindro",
+    "url": "https://calcolo.online/app/run/calcolatrice-circonferenza-cilindro",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-multipla-comune",
+    "url": "https://calcolo.online/app/run/calcolatrice-multipla-comune",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-numeri-complessi",
+    "url": "https://calcolo.online/app/run/calcolatrice-numeri-complessi",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "convergenza-serie-online",
+    "url": "https://calcolo.online/app/run/convergenza-serie-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "determinante-matrice",
+    "url": "https://calcolo.online/app/run/determinante-matrice",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "risolvi-logaritmi",
+    "url": "https://calcolo.online/app/run/risolvi-logaritmi",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-della-rata-del-mutuo",
+    "url": "https://calcolo.online/app/run/calcolo-della-rata-del-mutuo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-per-la-conversione-degli-oppiacei",
+    "url": "https://calcolo.online/app/run/calcolatore-per-la-conversione-degli-oppiacei",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      },
+      {
+        "index": 3,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 4,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mcg/ora"
+        }
+      },
+      {
+        "index": 5,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 6,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 7,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 8,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 9,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 10,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      },
+      {
+        "index": 11,
+        "expected": {
+          "tag": "input",
+          "name": "",
+          "label": "",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "",
+          "label": "mg"
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-della-sezione-del-cavo",
+    "url": "https://calcolo.online/app/run/calcolo-della-sezione-del-cavo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "percentage-calculator",
+    "url": "https://calcolo.online/en/app/run/percentage-calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "convertitore-watt-in-kwh",
+    "url": "https://calcolo.online/app/run/convertitore-watt-in-kwh",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "ebit",
+    "url": "https://calcolo.online/app/run/ebit",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "scorporo-fattura",
+    "url": "https://calcolo.online/app/run/scorporo-fattura",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "ebitda",
+    "url": "https://calcolo.online/app/run/ebitda",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-dei-giorni-tra-due-date",
+    "url": "https://calcolo.online/app/run/calcolo-dei-giorni-tra-due-date",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "convertitore-da-jpg-a-pdf",
+    "url": "https://calcolo.online/app/run/convertitore-da-jpg-a-pdf",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-per-misureare-la-sonnolenza-diurna-con-la-scala-epworth-ess",
+    "url": "https://calcolo.online/app/run/calcolatore-per-misureare-la-sonnolenza-diurna-con-la-scala-epworth-ess",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "quante-ore-dormire",
+    "url": "https://calcolo.online/app/run/quante-ore-dormire",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "convertitore-di-grammi-in-cucchiai-e-cucchiaini",
+    "url": "https://calcolo.online/app/run/convertitore-di-grammi-in-cucchiai-e-cucchiaini",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "generatore-di-numeri",
+    "url": "https://calcolo.online/app/run/generatore-di-numeri",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "indice-massa-corporea-bmi",
+    "url": "https://calcolo.online/app/run/indice-massa-corporea-bmi",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "data-parto-presunta",
+    "url": "https://calcolo.online/app/run/data-parto-presunta",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "addizione-di-numeri-decimali",
+    "url": "https://calcolo.online/app/run/addizione-di-numeri-decimali",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calorie-ciccolato",
+    "url": "https://calcolo.online/app/run/calorie-ciccolato",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "pdf-in-word",
+    "url": "https://calcolo.online/app/run/pdf-in-word",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "unire-pdf",
+    "url": "https://calcolo.online/app/run/unire-pdf",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-energia-di-attivazione",
+    "url": "https://calcolo.online/app/run/calcolatore-energia-di-attivazione",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "stima-calorie-zaino",
+    "url": "https://calcolo.online/app/run/stima-calorie-zaino",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "giorni-tra-due-date",
+    "url": "https://calcolo.online/app/run/giorni-tra-due-date",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "caffeina",
+    "url": "https://calcolo.online/app/run/caffeina",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      },
+      {
+        "index": 5,
+        "expected": {
+          "tag": "select",
+          "name": "itemType",
+          "label": "itemType"
+        },
+        "actual": {
+          "tag": "select",
+          "name": "itemType",
+          "label": ""
+        }
+      },
+      {
+        "index": 6,
+        "expected": {
+          "tag": "input",
+          "name": "quantity",
+          "label": "quantity",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "quantity",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "zone-fc-ciclismo",
+    "url": "https://calcolo.online/app/run/zone-fc-ciclismo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "eta-cane",
+    "url": "https://calcolo.online/app/run/eta-cane",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-tdee",
+    "url": "https://calcolo.online/app/run/calcolo-tdee",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "thc",
+    "url": "https://calcolo.online/app/run/thc",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calorie-bevande-alcoliche",
+    "url": "https://calcolo.online/app/run/calorie-bevande-alcoliche",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "email-carriera",
+    "url": "https://calcolo.online/app/run/email-carriera",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "numero-giorni",
+    "url": "https://calcolo.online/app/run/numero-giorni",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "carbon-footprint",
+    "url": "https://calcolo.online/app/run/carbon-footprint",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-dimensioni-televisore",
+    "url": "https://calcolo.online/app/run/calcolo-dimensioni-televisore",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "mah-durata-batteria",
+    "url": "https://calcolo.online/app/run/mah-durata-batteria",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "vo2max",
+    "url": "https://calcolo.online/app/run/vo2max",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "quante-once-misura-una-tazza",
+    "url": "https://calcolo.online/app/run/quante-once-misura-una-tazza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-circonferenza",
+    "url": "https://calcolo.online/app/run/calcolatore-circonferenza",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-peso-del-cane",
+    "url": "https://calcolo.online/app/run/calcolo-peso-del-cane",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-ammortamento",
+    "url": "https://calcolo.online/app/run/calcolo-ammortamento",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatrice-trigonometrica-triangolo-rettangolo",
+    "url": "https://calcolo.online/app/run/calcolatrice-trigonometrica-triangolo-rettangolo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "divisione-tra-polinomi-online",
+    "url": "https://calcolo.online/app/run/divisione-tra-polinomi-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "equazioni-online",
+    "url": "https://calcolo.online/app/run/equazioni-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "radice-quadrata-di-64",
+    "url": "https://calcolo.online/app/run/radice-quadrata-di-64",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-foil",
+    "url": "https://calcolo.online/app/run/calcolatore-foil",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-funzioni",
+    "url": "https://calcolo.online/app/run/calcolatore-funzioni",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-integrali",
+    "url": "https://calcolo.online/app/run/calcolatore-integrali",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-inverso-funzione-seno",
+    "url": "https://calcolo.online/app/run/calcolatore-inverso-funzione-seno",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-limiti",
+    "url": "https://calcolo.online/app/run/calcolatore-limiti",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-cambiamento-assoluto",
+    "url": "https://calcolo.online/app/run/calcolatore-cambiamento-assoluto",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-daltezza-inclinata",
+    "url": "https://calcolo.online/app/run/calcolatore-daltezza-inclinata",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-decimale",
+    "url": "https://calcolo.online/app/run/calcolatore-decimale",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-dellarea-di-un-poligono-regolare",
+    "url": "https://calcolo.online/app/run/calcolatore-dellarea-di-un-poligono-regolare",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-della-distanza-euclidea",
+    "url": "https://calcolo.online/app/run/calcolatore-della-distanza-euclidea",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-ettagono",
+    "url": "https://calcolo.online/app/run/calcolatore-ettagono",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-fattore-di-scala-triangolo",
+    "url": "https://calcolo.online/app/run/calcolatore-fattore-di-scala-triangolo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "riduzione-ai-minimi-termini-online",
+    "url": "https://calcolo.online/app/run/riduzione-ai-minimi-termini-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "risolutore-equazioni-differenziali",
+    "url": "https://calcolo.online/app/run/risolutore-equazioni-differenziali",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "test-chi-quadro-calcolo-online",
+    "url": "https://calcolo.online/app/run/test-chi-quadro-calcolo-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "triangolo-isoscele",
+    "url": "https://calcolo.online/app/run/triangolo-isoscele",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "area-rombo",
+    "url": "https://calcolo.online/app/run/area-rombo",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-angolo-tra-due-vettori",
+    "url": "https://calcolo.online/app/run/calcolatore-angolo-tra-due-vettori",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-area-triangolo-scaleno",
+    "url": "https://calcolo.online/app/run/calcolatore-area-triangolo-scaleno",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolatore-deviazione-standard",
+    "url": "https://calcolo.online/app/run/calcolatore-deviazione-standard",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calcolo-area-quadrato",
+    "url": "https://calcolo.online/app/run/calcolo-area-quadrato",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "calculator",
+    "url": "https://calcolo.online/app/run/calculator",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "decomposizione-in-frazioni-parziali",
+    "url": "https://calcolo.online/app/run/decomposizione-in-frazioni-parziali",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  },
+  {
+    "slug": "divisioni-in-colonna-online",
+    "url": "https://calcolo.online/app/run/divisioni-in-colonna-online",
+    "inputDifferences": [
+      {
+        "index": 1,
+        "expected": {
+          "tag": "input",
+          "name": "post_type",
+          "label": "post_type",
+          "step": "any"
+        },
+        "actual": {
+          "tag": "input",
+          "name": "post_type",
+          "label": ""
+        }
+      }
+    ],
+    "formulaDifference": null
+  }
+]

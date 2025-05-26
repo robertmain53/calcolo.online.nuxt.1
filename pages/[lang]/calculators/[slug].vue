@@ -8,19 +8,28 @@
       {{ $t('calculatorNotFound') }}
     </div>
 
-    <CalculatorLayout v-else :calculator="calculator">
+    <CalculatorLayout v-else :calculator="calculator" :tools="calculator.tools">
+
+       <!-- Head SEO -->
+      <Head>
+        <title>{{ calculator.metatitle }}</title>
+        <meta name="description" :content="calculator.metadescription" />
+      </Head>
+
       <!-- Titolo -->
       <h1 class="text-2xl font-bold mb-2">{{ calculator.title }}</h1>
 
       <!-- Descrizione -->
       <p v-if="calculator.description" class="mb-4">{{ calculator.description }}</p>
 
-      <!-- Markdown extra -->
+       <!-- Intro markdown -->
       <div
-        v-if="calculator.content"
+        v-if="calculator.intro"
         class="prose mb-6"
-        v-html="markdownToHtml(calculator.content)"
+        v-html="markdownToHtml(calculator.intro)"
       ></div>
+
+     
 
       <!-- Form dinamico -->
       <form v-if="calculator.inputs?.length" @submit.prevent class="space-y-4 mb-6">
@@ -54,6 +63,38 @@
       <p v-else class="text-gray-500">
         {{ $t('noFormulaDefined') }}
       </p>
+
+       <!-- Markdown extra -->
+      <div
+        v-if="calculator.content"
+        class="prose mb-6"
+        v-html="markdownToHtml(calculator.content)"
+      ></div>
+
+      <!-- Outro markdown -->
+      <div
+        v-if="calculator.outro"
+        class="prose mt-6"
+        v-html="markdownToHtml(calculator.outro)"
+      ></div>
+
+
+        <!-- See Also -->
+      <section v-if="calculator.seeAlso?.length" class="mt-8">
+        <h2 class="font-semibold mb-2">{{ $t('seeAlso') }}</h2>
+        <ul class="list-disc ml-5">
+          <li v-for="s in calculator.seeAlso" :key="s">
+            <NuxtLink
+              :to="`/${lang}/calculators/${s}`"
+              class="text-blue-600 hover:underline"
+            >
+              {{ getAlternateTitle(s) }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </section>
+
+
     </CalculatorLayout>
   </div>
 </template>
@@ -63,6 +104,7 @@ import { ref, reactive, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import calculators from '~/content/calculators.json'
 import rapidTools from '~/content/rapidTablesCalculators.json'
+import calcolo from '~/content/Calcolo.json'
 import CalculatorLayout from '~/components/CalculatorLayout.vue'
 
 // Semplice parser markdown
@@ -75,6 +117,7 @@ function markdownToHtml(md = '') {
 
 // Route params
 const route = useRoute()
+const lang = route.params.lang || 'it'
 const slug = route.params.slug
 
 // Stato di caricamento
@@ -83,7 +126,7 @@ const calculator = ref(null)
 
 // Carica i dati e trova il calcolatore
 onMounted(() => {
-  const all = [...calculators, ...rapidTools].filter(t => !t.draft)
+  const all = [...calculators, ...rapidTools,...calcolo].filter(t => !t.draft)
   calculator.value = all.find(c => c.slug === slug) || null
   // Inizializza i valori degli input
   if (calculator.value?.inputs) {
@@ -120,4 +163,13 @@ const computedResult = computed(() => {
     return null
   }
 })
+
+// Helper per alternativetitle
+function getAlternateTitle(slug) {
+  const all = [...calculators, ...rapidTools, ...calcolo]
+  const item = all.find(c => c.slug === slug)
+  return item
+    ? item.alternativetitle || item.title
+    : slug
+}
 </script>
