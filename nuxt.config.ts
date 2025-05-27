@@ -2,8 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxt/content' 
   ],
+  content: {
+    dir: 'content'
+  },
+
   css: ['@/assets/css/tailwind.css'],
   tailwindcss: { configPath: 'tailwind.config.js' },
   i18n: {

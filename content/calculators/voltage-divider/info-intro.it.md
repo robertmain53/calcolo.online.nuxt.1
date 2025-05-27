@@ -1,5 +1,5 @@
 -- content/calculators/bmi-calculator/info-intro.it.md --
 
-## Introduzione al Calcolatore
+## Introduzione al Calcolatoreaaa
 
-Il calcolatore BMI ti permette ...
+Il calcolatore BMI ti permette ...wwaasa
