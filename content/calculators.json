@@ -43,7 +43,23 @@
     "draft": false,       
     "featured": true,      
     "content": "## Voltage Divider\nFormula: `Vout = Vin * R2 / (R1 + R2)`",
-    "feedback": "Let us know if this formula fails."
+    "feedback": "Let us know if this formula fails.",
+      "infoSections": [
+  
+    {
+      "title": "Introduzione al Calcolatore",
+      "content": "Introduzione al Calcolatore"
+    },
+      {
+      "title": "Come Utilizzare il Calcolatore",
+      "content": "Esempio: **Calcolatore BMI (Indice di Massa Corporea): Calcola e Interpreta il Tuo BMI**"
+    },
+    {
+      "title": "Il Calcolatore Online (Sezione Interattiva)",
+      "content": "Questa è la sezione dove l'utente inserisce i dati.\n\n*Campi di input chiari*, *Unità di misura*, *Pulsante di calcolo*…"
+    } 
+  ]
+
   },
   {
     "slug": "ohms-law",
@@ -81,7 +97,22 @@
     "draft": false,       
     "featured": true,      
     "content": "## Ohm's Law\nFormula: `I = V / R`",
-    "feedback": "Let us know if this formula fails."
+    "feedback": "Let us know if this formula fails.",
+      "infoSections": [
+    {
+      "title": "Titolo Chiaro e Descrittivo del Calcolatore",
+      "content": "Esempio: **Calcolatore BMI (Indice di Massa Corporea): Calcola e Interpreta il Tuo BMI**"
+    },
+    {
+      "title": "Introduzione al Calcolatore",
+      "content": "Il calcolatore BMI ti permette di calcolare il tuo Indice di Massa Corporea, un indicatore del tuo stato di peso.\n\n**A chi è utile:** Sportivi, professionisti della salute…"
+    },
+    {
+      "title": "Il Calcolatore Online (Sezione Interattiva)",
+      "content": "Questa è la sezione dove l'utente inserisce i dati.\n\n*Campi di input chiari*, *Unità di misura*, *Pulsante di calcolo*…"
+    } 
+  ]
+
   },
   {
     "slug": "bmi-calculator",

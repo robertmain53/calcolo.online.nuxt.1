@@ -26,6 +26,7 @@
   "noResults": "Nessun risultato trovato per “{term}”.",
    "home": "Home",
   "allCalculators": "Calcolatori",
+    "moreInfo": "Ulteriori Informazioni",
   "categories": {
     "electrical": "Elettrico",
     "voltage": "Tensione",

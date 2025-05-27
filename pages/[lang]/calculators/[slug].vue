@@ -96,6 +96,18 @@
       ></div>
 
 
+<template>
+  <nuxt-content :document="introDoc" />
+</template
+      
+
+      <!-- Accordion solo se ci sono sezioni non vuote -->
+    <section v-if="calculator.infoSections?.some(sec => sec.content?.trim())" class="mt-8">
+      <h2 class="text-xl font-bold mb-4">{{ $t('moreInfo') }}</h2>
+      <Accordion :sections="calculator.infoSections" />
+    </section>
+    
+
         <!-- See Also -->
       <section v-if="calculator.seeAlso?.length" class="mt-8">
         <h2 class="font-semibold mb-2">{{ $t('seeAlso') }}</h2>
@@ -113,10 +125,15 @@
 
 
     </CalculatorLayout>
+
+    
   </div>
 </template>
 
 <script setup>
+
+
+
 import Tooltip from '~/components/Tooltip.vue'
 import { ref, reactive, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
@@ -145,6 +162,8 @@ const calculator = ref(null)
 // Oggetti reattivi per valori mostrati e unità selezionate
 const displayValues = reactive({})
 const selectedUnits = reactive({})
+
+const introDoc = await useContent(`calculators/${slug}/info-intro`).fetch()
 
 
 // in script setup, prima di onMounted…

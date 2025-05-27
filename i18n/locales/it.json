@@ -27,6 +27,7 @@
   "enterSearchTerm": "Inserisci un termine di ricerca.",
   "noResults": "Nessun risultato trovato per “{term}”.",
    "home": "Home",
+     "moreInfo": "Ulteriori Informazioni",
   "allCalculators": "Calcolatori",
   "categories": {
     "electrical": "Elettrico",

@@ -12,7 +12,8 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'Breadcrumbs': typeof import("../components/Breadcrumbs.vue")['default']
+      'Accordion': typeof import("../components/Accordion.vue")['default']
+    'Breadcrumbs': typeof import("../components/Breadcrumbs.vue")['default']
     'CalculatorLayout': typeof import("../components/CalculatorLayout.vue")['default']
     'Footer': typeof import("../components/Footer.vue")['default']
     'Header': typeof import("../components/Header.vue")['default']
@@ -43,7 +44,8 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyBreadcrumbs': LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
+      'LazyAccordion': LazyComponent<typeof import("../components/Accordion.vue")['default']>
+    'LazyBreadcrumbs': LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
     'LazyCalculatorLayout': LazyComponent<typeof import("../components/CalculatorLayout.vue")['default']>
     'LazyFooter': LazyComponent<typeof import("../components/Footer.vue")['default']>
     'LazyHeader': LazyComponent<typeof import("../components/Header.vue")['default']>
@@ -80,6 +82,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const Accordion: typeof import("../components/Accordion.vue")['default']
 export const Breadcrumbs: typeof import("../components/Breadcrumbs.vue")['default']
 export const CalculatorLayout: typeof import("../components/CalculatorLayout.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
@@ -111,6 +114,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyAccordion: LazyComponent<typeof import("../components/Accordion.vue")['default']>
 export const LazyBreadcrumbs: LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
 export const LazyCalculatorLayout: LazyComponent<typeof import("../components/CalculatorLayout.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>

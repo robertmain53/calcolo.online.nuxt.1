@@ -1,5 +1,5 @@
 <template>
-  <nav aria-label="Breadcrumb" class="text-sm text-gray-600 mb-4 p-10">
+  <nav aria-label="Breadcrumb" class="text-sm text-gray-600 mb-4 pr-10 pl-10 pb-3 pt-3">
     <ol class="list-reset flex space-x-1">
       <li v-for="(crumb, i) in crumbs" :key="i" class="flex items-center">
         <NuxtLink
