@@ -21,6 +21,10 @@
   "calculatorNotFound": "Calcolatore non trovato.",
   "noInputsDefined": "Nessun input definito.",
   "result": "Risultato",
-  "noFormulaDefined": "Formula non definita."
+  "noFormulaDefined": "Formula non definita.",
+  "searchPlaceholder": "Cerca…",
+  "searchResultsFor": "Risultati per “{term}”",
+  "enterSearchTerm": "Inserisci un termine di ricerca.",
+  "noResults": "Nessun risultato trovato per “{term}”."
 }
 

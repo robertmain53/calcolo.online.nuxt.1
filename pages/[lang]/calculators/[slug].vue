@@ -38,7 +38,10 @@
           :key="field.name"
           class="flex items-center space-x-2"
         >
-          <label :for="field.name" class="w-44">{{ field.label }}</label>
+          <label :for="field.name" class="flex items-center space-x-1 w-44">
+          <span>{{ field.label }}</span>
+          <Tooltip v-if="field.tooltip" :text="field.tooltip" />
+          </label>
           <input
             :id="field.name"
             v-model.number="values[field.name]"
@@ -100,6 +103,7 @@
 </template>
 
 <script setup>
+import Tooltip from '~/components/Tooltip.vue'
 import { ref, reactive, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import calculators from '~/content/calculators.json'

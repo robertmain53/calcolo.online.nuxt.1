@@ -1,34 +1,44 @@
 [
-  {
+  { "_commento_": "22 campi, considerando tutti gli input come uno solo",
     "slug": "voltage-divider",
     "title": "Voltage Divider",
+    "alternativetitle": "Legge di Ohm",
+    "metatitle": "Ohm's Law – Calcolo corrente, tensione, resistenza",
+    "metadescription": "Calcola corrente (I), tensione (V) o resistenza (R) usando la legge di Ohm.",
+    "intro": "### Introduzione\nLa legge di Ohm descrive la relazione tra tensione, corrente e resistenza.",
     "description": "Calculate output voltage using input voltage and resistors R1, R2.",
      "category": "Electrical",
     "subcategory": "Voltage",
     "inputs": [
       {
         "label": "Vin",
-        "name": "vin"
+        "name": "vin",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
+
       },
       {
         "label": "R1",
-        "name": "r1"
+        "name": "r1",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "R2",
-        "name": "r2"
+        "name": "r2",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       }
     ],
     "formula": "",
+     "resultUnit": "A",
     "author": "Calcolo Admin",
     "created": "2024-01-01",
+     "outro": "### Nota\nAssicurati che R≠0 per evitare errori di divisione.",
+    "seealso": ["voltage-divider","resistance-calculator"],
+    "tools": ["power-calculator","energy-calculator"],
     "modified": "2025-05-25",
-    "seeAlso": [
-      "ohms-law",
-      "resistor-power"
-    ],
+    "draft": false,       
+    "featured": true,      
     "content": "## Voltage Divider\nFormula: `Vout = Vin * R2 / (R1 + R2)`",
-    "feedback": "Report errors to our team."
+    "feedback": "Let us know if this formula fails."
   },
   {
     "slug": "ohms-law",
@@ -43,11 +53,13 @@
     "inputs": [
       {
         "label": "Voltage (V)",
-        "name": "voltage"
+        "name": "voltage",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "Resistance (\u03a9)",
-        "name": "resistance"
+        "name": "resistance",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       }
     ],
     "formula": "resistance * voltage ",
@@ -71,11 +83,13 @@
     "inputs": [
       {
         "label": "Weight (kg)",
-        "name": "weight"
+        "name": "weight",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "Height (m)",
-        "name": "height"
+        "name": "height",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       }
     ],
     "formula": "",
@@ -96,11 +110,13 @@
     "inputs": [
       {
         "label": "Bill Amount",
-        "name": "bill"
+        "name": "bill",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "Tip %",
-        "name": "tip"
+        "name": "tip",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       }
     ],
     "formula": "",
@@ -119,15 +135,18 @@
     "inputs": [
       {
         "label": "Principal",
-        "name": "p"
+        "name": "p",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "Annual Rate %",
-        "name": "r"
+        "name": "r",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       },
       {
         "label": "Years",
-        "name": "n"
+        "name": "n",
+        "tooltip": "Tensione applicata all’ingresso del partitore."
       }
     ],
     "formula": "",
