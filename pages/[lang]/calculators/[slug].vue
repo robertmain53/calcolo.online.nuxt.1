@@ -31,13 +31,15 @@
 
      
 
-      <!-- Form dinamico -->
-      <form v-if="calculator.inputs?.length" @submit.prevent class="space-y-4 mb-6">
-        <div
-          v-for="field in calculator.inputs"
-          :key="field.name"
-          class="flex items-center space-x-2"
-        >
+<!-- Form con dropdown di unità -->
+    <form v-if="calculator.inputs?.length" @submit.prevent class="space-y-4 mb-6">
+      <div
+        v-for="field in calculator.inputs"
+        :key="field.name"
+        class="flex items-center space-x-2"
+      >
+          <!-- Label e tooltip-->
+
           <label :for="field.name" class="flex items-center space-x-1 w-44">
           <span>{{ field.label }}</span>
           <Tooltip v-if="field.tooltip" :text="field.tooltip" />
@@ -48,7 +50,19 @@
             :type="field.type"
             class="border rounded px-2 py-1 w-32"
           />
-          <span>{{ field.unit }}</span>
+               <!-- Dropdown unità -->
+        <select
+          v-model="selectedUnits[field.name]"
+          class="border rounded px-2 py-1"
+        >
+          <option
+            v-for="u in field.unitOptions"
+            :key="u"
+            :value="u"
+          >
+            {{ u }}
+          </option>
+        </select>
         </div>
       </form>
       <p v-else class="text-gray-500">
@@ -128,6 +142,27 @@ const slug = route.params.slug
 const loaded = ref(false)
 const calculator = ref(null)
 
+// Oggetti reattivi per valori mostrati e unità selezionate
+const displayValues = reactive({})
+const selectedUnits = reactive({})
+
+
+// in script setup, prima di onMounted…
+const unitFactors = {
+  'Ω': 1,
+  'kΩ': 1e3,
+  'MΩ': 1e6,
+  'V': 1,
+  'mV': 1e-3,
+  'kV': 1e3,
+  'A': 1,
+  'mA': 1e-3,
+  // aggiungi altre unità necessarie…
+}
+
+
+
+
 // Carica i dati e trova il calcolatore
 onMounted(() => {
   const all = [...calculators, ...rapidTools,...calcolo].filter(t => !t.draft)
@@ -135,11 +170,28 @@ onMounted(() => {
   // Inizializza i valori degli input
   if (calculator.value?.inputs) {
     calculator.value.inputs.forEach(f => {
-      values[f.name] = f.default ?? 0
+      // valore di default e unità iniziale
+      displayValues[f.name] = f.default ?? 0
+      selectedUnits[f.name] = f.unitOptions?.[0] || f.unit
     })
   }
   loaded.value = true
 })
+
+
+// Computed: valori normalizzati (in unità base) da passare alla formula
+const normalized = computed(() => {
+  const obj = {}
+  if (!calculator.value?.inputs) return obj
+  for (const f of calculator.value.inputs) {
+    const disp = displayValues[f.name]
+    const factor = unitFactors[selectedUnits[f.name]] || 1
+    obj[f.name] = disp * factor
+  }
+  return obj
+})
+
+
 
 // Stato dei valori
 const values = reactive({})
@@ -154,15 +206,18 @@ const computedResult = computed(() => {
       return null
     }
   }
-  // Valuta la formula
-  try {
-    // Es: "Vin * R2 / (R1 + R2)"
+// valuta la formula: i nomi delle variabili in formula devono corrispondere alle chiavi
+try {
     const fn = new Function(
       ...calc.inputs.map(f => f.name),
-      `return ${calc.formula}`
+      `return ${calc.formula.replace(/^.*?=/,'')}`
     )
-    const res = fn(...calc.inputs.map(f => values[f.name]))
-    return isNaN(res) ? res : res.toFixed(4)
+    const raw = fn(...calc.inputs.map(f => normalized.value[f.name]))
+    if (isNaN(raw)) return raw
+
+    // arrotondamento
+    const prec = Number.isInteger(calc.precision) ? calc.precision : 4
+    return raw.toFixed(prec)
   } catch {
     return null
   }

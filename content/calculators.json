@@ -13,22 +13,27 @@
       {
         "label": "Vin",
         "name": "vin",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
+
 
       },
       {
         "label": "R1",
         "name": "r1",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
       },
       {
         "label": "R2",
         "name": "r2",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
       }
     ],
-    "formula": "",
-     "resultUnit": "A",
+    "formula": "11",
+    "precision": 3,   
+    "resultUnit": "A",
     "author": "Calcolo Admin",
     "created": "2024-01-01",
      "outro": "### Nota\nAssicurati che R≠0 per evitare errori di divisione.",
@@ -49,24 +54,27 @@
     "intro": "### Introduzione\nLa legge di Ohm descrive la relazione tra tensione, corrente e resistenza.",
     "description": "Calculate current from voltage and resistance.",
     "category": "Electrical",
-    "subcategory": "Ohm",
+    "subcategory": "Resistance",
     "inputs": [
       {
         "label": "Voltage (V)",
         "name": "voltage",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["V", "mV", "MV"]
       },
       {
         "label": "Resistance (\u03a9)",
         "name": "resistance",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
       }
     ],
-    "formula": "resistance * voltage ",
+    "formula": "22",
+    "precision": 31,          
     "resultUnit": "A",
     "author": "Calcolo Admin",
     "created": "2024-01-01",
-     "outro": "### Nota\nAssicurati che R≠0 per evitare errori di divisione.",
+    "outro": "### Nota\nAssicurati che R≠0 per evitare errori di divisione.",
     "seealso": ["voltage-divider","resistance-calculator"],
     "tools": ["power-calculator","energy-calculator"],
     "modified": "2025-05-25",
@@ -84,12 +92,14 @@
       {
         "label": "Weight (kg)",
         "name": "weight",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
       },
       {
         "label": "Height (m)",
         "name": "height",
-        "tooltip": "Tensione applicata all’ingresso del partitore."
+        "tooltip": "Tensione applicata all’ingresso del partitore.",
+        "unitOptions": ["Ω", "kΩ", "MΩ"]
       }
     ],
     "formula": "",
