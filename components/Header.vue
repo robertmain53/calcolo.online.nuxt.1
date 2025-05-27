@@ -6,7 +6,7 @@
     </NuxtLink>
 
     <!-- Search form -->
-      <form @submit.prevent="onSearch" class="flex flex-1 md:flex-none">
+      <form @submit.prevent="onSearch" class="flex flex-1 md:flex-none p-10">
         <input
           v-model="searchTerm"
           type="text"

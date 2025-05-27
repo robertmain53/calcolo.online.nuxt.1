@@ -23,7 +23,13 @@
    "searchPlaceholder": "Cerca…",
   "searchResultsFor": "Risultati per “{term}”",
   "enterSearchTerm": "Inserisci un termine di ricerca.",
-  "noResults": "Nessun risultato trovato per “{term}”."
+  "noResults": "Nessun risultato trovato per “{term}”.",
+   "home": "Home",
+  "allCalculators": "Calcolatori",
+  "categories": {
+    "electrical": "Elettrico",
+    "voltage": "Tensione",
+    "resistance": "Resistenza"
 
  }
 

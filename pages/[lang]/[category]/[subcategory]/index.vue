@@ -47,4 +47,5 @@ function translateCategory(slug) {
   const key = `categories.${slug}`
   return t(key) !== key ? t(key) : slug.charAt(0).toUpperCase()+slug.slice(1)
 }
+
 </script>

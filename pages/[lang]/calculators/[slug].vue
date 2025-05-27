@@ -162,7 +162,6 @@ const unitFactors = {
 
 
 
-
 // Carica i dati e trova il calcolatore
 onMounted(() => {
   const all = [...calculators, ...rapidTools,...calcolo].filter(t => !t.draft)
@@ -231,4 +230,6 @@ function getAlternateTitle(slug) {
     ? item.alternativetitle || item.title
     : slug
 }
+
+
 </script>

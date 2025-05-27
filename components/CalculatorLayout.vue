@@ -40,4 +40,6 @@ function getAlternateTitle(slug) {
   calculators.concat(rapidTools, calcolo).find(c => c.slug === slug)
   return item?.alternativetitle || item?.title || slug
 }
+
+
 </script>

@@ -29,4 +29,6 @@ const locale = route.params.lang || 'it'
 
 // tutti i tool pubblicati
 const allTools = [...calculators, ...rapidTools].filter(tl => !tl.draft)
+
+ 
 </script>
