@@ -96,9 +96,7 @@
       ></div>
 
 
-<template>
-  <nuxt-content :document="introDoc" />
-</template
+
       
 
       <!-- Accordion solo se ci sono sezioni non vuote -->
@@ -163,7 +161,6 @@ const calculator = ref(null)
 const displayValues = reactive({})
 const selectedUnits = reactive({})
 
-const introDoc = await useContent(`calculators/${slug}/info-intro`).fetch()
 
 
 // in script setup, prima di onMounted…
