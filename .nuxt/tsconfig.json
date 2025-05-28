@@ -104,21 +104,6 @@
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
-      "#content/components": [
-        "./content/components"
-      ],
-      "#content/manifest": [
-        "./content/manifest"
-      ],
-      "#mdc-configs": [
-        "./mdc-configs"
-      ],
-      "#mdc-highlighter": [
-        "./mdc-highlighter"
-      ],
-      "#mdc-imports": [
-        "./mdc-imports"
-      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -127,12 +112,6 @@
       ],
       "#imports": [
         "./imports"
-      ],
-      "#tailwindcss": [
-        "./tailwind"
-      ],
-      "#tailwindcss/sources": [
-        "./tailwindcss/sources"
       ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
@@ -163,6 +142,12 @@
       ],
       "#nuxt-i18n/logger": [
         "./nuxt-i18n-logger"
+      ],
+      "#tailwindcss": [
+        "./tailwind"
+      ],
+      "#tailwindcss/sources": [
+        "./tailwindcss/sources"
       ],
       "#app-manifest": [
         "./manifest/meta/dev"
@@ -209,14 +194,12 @@
     "../**/*",
     "../.config/nuxt.*",
     "./nuxt.d.ts",
-    "../node_modules/@nuxtjs/tailwindcss/runtime",
-    "../node_modules/@nuxtjs/tailwindcss/dist/runtime",
     "../node_modules/@nuxtjs/i18n/runtime",
     "../node_modules/@nuxtjs/i18n/dist/runtime",
-    "../node_modules/@nuxtjs/mdc/runtime",
-    "../node_modules/@nuxtjs/mdc/dist/runtime",
-    "../node_modules/@nuxt/content/runtime",
-    "../node_modules/@nuxt/content/dist/runtime",
+    "../node_modules/@nuxtjs/tailwindcss/runtime",
+    "../node_modules/@nuxtjs/tailwindcss/dist/runtime",
+    "../node_modules/@vueuse/nuxt/runtime",
+    "../node_modules/@vueuse/nuxt/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -228,20 +211,17 @@
     "../.data",
     "../node_modules",
     "../node_modules/nuxt/node_modules",
-    "../node_modules/@nuxtjs/tailwindcss/node_modules",
     "../node_modules/@nuxtjs/i18n/node_modules",
-    "../node_modules/@nuxtjs/mdc/node_modules",
-    "../node_modules/@nuxt/content/node_modules",
+    "../node_modules/@nuxtjs/tailwindcss/node_modules",
+    "../node_modules/@vueuse/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
-    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
-    "../node_modules/@nuxtjs/tailwindcss/dist/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
     "../node_modules/@nuxtjs/i18n/dist/runtime/server",
-    "../node_modules/@nuxtjs/mdc/runtime/server",
-    "../node_modules/@nuxtjs/mdc/dist/runtime/server",
-    "../node_modules/@nuxt/content/runtime/server",
-    "../node_modules/@nuxt/content/dist/runtime/server",
+    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/@nuxtjs/tailwindcss/dist/runtime/server",
+    "../node_modules/@vueuse/nuxt/runtime/server",
+    "../node_modules/@vueuse/nuxt/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

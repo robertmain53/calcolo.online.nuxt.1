@@ -1,27 +1,55 @@
 // nuxt.config.ts
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
-    '@nuxt/content' 
+    '@nuxtjs/tailwindcss',
+     '@vueuse/nuxt'    
   ],
-  content: {
-    dir: 'content'
+
+  // CSS globali
+  css: ['~/assets/css/tailwind.css'],
+
+  // Configurazione Tailwind
+  tailwindcss: {
+    cssPath: '@/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js'
   },
 
-  css: ['@/assets/css/tailwind.css'],
-  tailwindcss: { configPath: 'tailwind.config.js' },
+  // Configurazione i18n
   i18n: {
     locales: [
-      { code: 'it', iso: 'it-IT', name: 'Italiano', file: 'it.json' },
-      { code: 'en', iso: 'en-US', name: 'English',  file: 'en.json' },
-      { code: 'es', iso: 'es-ES', name: 'Español',  file: 'es.json' },
-      { code: 'fr', iso: 'fr-FR', name: 'Français', file: 'fr.json' }
+      { code: 'it', iso: 'it-IT', file: 'it.json', name: 'Italiano' },
+      { code: 'en', iso: 'en-US', file: 'en.json', name: 'English' },
+      { code: 'es', iso: 'es-ES', file: 'es.json', name: 'Español' },
+      { code: 'fr', iso: 'fr-FR', file: 'fr.json', name: 'Français' }
     ],
     defaultLocale: 'it',
     lazy: true,
     langDir: 'locales/',
-    detectBrowserLanguage: false
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: false,
+    pages: {
+      '/calculators': {
+        it: '/it/calcolatori',
+        en: '/en/calculators',
+        es: '/es/calculadoras',
+        fr: '/fr/calculatrices'
+      },
+      '/calculators/[slug]': {
+        it: '/it/calcolatori/:slug',
+        en: '/en/calculators/:slug',
+        es: '/es/calculadoras/:slug',
+        fr: '/fr/calculatrices/:slug'
+      }
+    }
   },
-  nitro: { compatibilityDate: '2025-05-26' }
+
+  // Meta head globale
+  app: {
+    head: {
+      titleTemplate: '%s — Calcolo.online'
+    }
+  }
 })

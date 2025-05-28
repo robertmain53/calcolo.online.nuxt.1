@@ -126,16 +126,16 @@ default_fields = {
          "fr": ""
         },
     "draft":  {
-         "it": FALSE,
-         "en": FALSE,
-         "es": FALSE,
-         "fr": FALSE
+         "it": False,
+         "en": False,
+         "es": False,
+         "fr": False
         },
     "featured":  {
-         "it": FALSE,
-         "en": FALSE,
-         "es": FALSE,
-         "fr": FALSE
+         "it": False,
+         "en": False,
+         "es": False,
+         "fr": False
         },
     "content": {
          "it": "",
@@ -176,5 +176,5 @@ for fname in base_files:
         merged['draft'] = False
         new_arr.append(merged)
     # Scrivo il file aggiornato
-    out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    path.write_text(json.dumps(new_arr, ensure_ascii=False, indent=2))
     print(f"✅ Processato e riscritto: {path}")

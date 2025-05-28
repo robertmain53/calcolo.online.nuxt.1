@@ -128,7 +128,20 @@ export const nuxtI18nOptions = {
   differentDomains: false,
   baseUrl: "",
   customRoutes: "page",
-  pages: {},
+  pages: {
+    "/calculators": {
+      it: "/it/calcolatori",
+      en: "/en/calculators",
+      es: "/es/calculadoras",
+      fr: "/fr/calculatrices"
+    },
+    "/calculators/[slug]": {
+      it: "/it/calcolatori/:slug",
+      en: "/en/calculators/:slug",
+      es: "/es/calculadoras/:slug",
+      fr: "/fr/calculatrices/:slug"
+    }
+  },
   skipSettingLocaleOnNavigate: false,
   types: "composition",
   debug: false,

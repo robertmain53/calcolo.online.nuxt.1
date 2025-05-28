@@ -1,93 +1,38 @@
 <template>
-  <header class="bg-white dark:bg-gray-800 shadow p-4 flex items-center justify-between">
-    <!-- Brand -->
-    <NuxtLink :to="`/${locale}`" class="text-xl font-bold">
-      {{ $t('brand') }}
-    </NuxtLink>
-
-    <!-- Search form -->
-      <form @submit.prevent="onSearch" class="flex flex-1 md:flex-none p-10">
-        <input
-          v-model="searchTerm"
-          type="text"
-          :placeholder="$t('searchPlaceholder')"
-          class="flex-1 border rounded-l px-3 py-1 focus:outline-none"
-        />
-        <button
-          type="submit"
-          class="bg-blue-600 text-white px-3 py-1 rounded-r hover:bg-blue-700"
-          aria-label="Search"
-        >
-          🔍
-        </button>
-      </form>
-
+  <header class="bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center">
+    <NuxtLink to="/" class="text-xl font-bold">Calcolo.online</NuxtLink>
     <div class="flex items-center space-x-4">
-      <!-- Language switcher -->
-      <div class="space-x-2">
-        <button
-          v-for="loc in localeCodes"
-          :key="loc"
-          @click="changeLocale(loc)"
-          :class="[
-            'text-sm px-2 py-1 rounded focus:outline-none',
-            loc === locale ? 'font-bold underline' : ''
-          ]"
-        >
-          {{ loc.toUpperCase() }}
-        </button>
-      </div>
-      <!-- Dark-mode toggle (se vuoi tenerlo) 
-      <button @click="toggleDark" class="p-2" :aria-label="isDark ? $t('lightMode') : $t('darkMode')">
-        <span v-if="isDark">☀️</span><span v-else>🌙</span>
-      </button> -->
+      <input
+        v-model="query"
+        @keyup.enter="onSearch"
+        placeholder="🔍 {{ $t('search') }}"
+        class="border rounded px-2 py-1 dark:bg-gray-700 dark:border-gray-600"
+      />
+      <select v-model="locale" @change="switchLocale" class="border rounded px-2 py-1">
+        <option v-for="loc in locales" :key="loc.code" :value="loc.code">
+          {{ loc.name }}
+        </option>
+      </select>
+      <button @click="toggleDark" class="p-2">
+        <span v-if="isDark">🌙</span><span v-else>☀️</span>
+      </button>
     </div>
   </header>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-
-const route = useRoute()
-const router = useRouter()
-
-// Prendo il locale corrente da i18n
-const { locale: localeRef } = useI18n()
-const locale = computed(() => route.params.lang || localeRef.value || 'it')
-
-// Array hard-coded dei codici lingua
-const localeCodes = ['it','en','es','fr']
-
-// Search term
-const searchTerm = ref(route.query.q || '')
-
+import { useDark, useToggle } from '@vueuse/core'
+const { locale, locales, t } = useI18n()
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
+const query = ref('')
 function onSearch() {
-  if (searchTerm.value.trim()) {
-    router.push({ path: `/${locale.value}/search`, query: { q: searchTerm.value.trim() }})
+  if (query.trim()) {
+    navigateTo(`/${locale.value}/search?q=${encodeURIComponent(query)}`)
   }
 }
-
-// Cambio lingua sostituendo il primo segmento dell'URL
-function changeLocale(code) {
-  const segments = route.path.split('/')
-  segments[1] = code
-  const newPath = segments.join('/') || `/${code}`
-  router.push(newPath)
+function switchLocale() {
+  locale.value = locale.value
 }
-
-// Dark mode (opzionale)
-const isDark = ref(false)
-function toggleDark() {
-  isDark.value = !isDark.value
-  document.documentElement.classList.toggle('dark', isDark.value)
-  localStorage.setItem('darkMode', isDark.value.toString())
-}
-onMounted(() => {
-  const saved = localStorage.getItem('darkMode')
-  const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches
-  isDark.value = saved === 'true' || (saved === null && prefers)
-  document.documentElement.classList.toggle('dark', isDark.value)
-})
 </script>

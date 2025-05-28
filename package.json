@@ -11,6 +11,8 @@
     "@nuxt/content": "^3.5.1",
     "@nuxtjs/i18n": "^9.3.0",
     "@nuxtjs/robots": "^3.0.0",
+    "@vueuse/core": "^13.3.0",
+    "@vueuse/nuxt": "^13.3.0",
     "cheerio": "^1.0.0",
     "fast-xml-parser": "^5.2.3",
     "node-fetch": "^3.3.2",
