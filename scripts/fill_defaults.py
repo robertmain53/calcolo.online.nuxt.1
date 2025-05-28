@@ -6,6 +6,9 @@ from pathlib import Path
 # I nomi dei file da processare
 base_files = ['calculators.json', 'Calcolo.json', 'rapidTablesCalculators.json']
 
+output_dir = Path('content/i18n_content')   # ← cambia questo con il tuo path
+
+
 # Modello con tutti i campi
 default_fields = {
     "slug": {
@@ -173,5 +176,5 @@ for fname in base_files:
         merged['draft'] = False
         new_arr.append(merged)
     # Scrivo il file aggiornato
-    path.write_text(json.dumps(new_arr, ensure_ascii=False, indent=2))
+    out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     print(f"✅ Processato e riscritto: {path}")
