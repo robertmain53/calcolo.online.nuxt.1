@@ -48,16 +48,36 @@
   
     {
       "title": "Introduzione al Calcolatore",
-      "content": "Introduzione al Calcolatore"
+      "content": ""
     },
       {
       "title": "Come Utilizzare il Calcolatore",
-      "content": "Esempio: **Calcolatore BMI (Indice di Massa Corporea): Calcola e Interpreta il Tuo BMI**"
+      "content": ""
     },
     {
-      "title": "Il Calcolatore Online (Sezione Interattiva)",
-      "content": "Questa è la sezione dove l'utente inserisce i dati.\n\n*Campi di input chiari*, *Unità di misura*, *Pulsante di calcolo*…"
-    } 
+      "title": "Interpretazione dei Risultati",
+      "content": ""
+    },
+    {
+      "title": "Approfondimenti Teorici e Pratici",
+      "content": ""
+    },
+    {
+      "title": "Consigli Utili / Cose da Sapere",
+      "content": ""
+    },
+    {
+      "title": "Domande Frequenti (FAQ)",
+      "content": ""
+    },
+   {
+      "title": "Fonti / Risorse Aggiuntive",
+      "content": ""
+    },
+    {
+      "title": "Note interne",
+      "content": ""
+    }
   ]
 
   },
