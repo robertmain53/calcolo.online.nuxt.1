@@ -73,7 +73,6 @@ export const nuxtI18nOptions = {
     {
       code: "it",
       iso: "it-IT",
-      name: "Italiano",
       files: [
         {
           path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
@@ -84,7 +83,6 @@ export const nuxtI18nOptions = {
     {
       code: "en",
       iso: "en-US",
-      name: "English",
       files: [
         {
           path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
@@ -95,7 +93,6 @@ export const nuxtI18nOptions = {
     {
       code: "es",
       iso: "es-ES",
-      name: "Español",
       files: [
         {
           path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
@@ -106,7 +103,6 @@ export const nuxtI18nOptions = {
     {
       code: "fr",
       iso: "fr-FR",
-      name: "Français",
       files: [
         {
           path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",
@@ -120,15 +116,31 @@ export const nuxtI18nOptions = {
   routesNameSeparator: "___",
   trailingSlash: false,
   defaultLocaleRouteNameSuffix: "default",
-  strategy: "prefix_except_default",
+  strategy: "prefix",
   lazy: true,
   langDir: "locales/",
   rootRedirect: undefined,
-  detectBrowserLanguage: false,
+  detectBrowserLanguage: {
+    alwaysRedirect: false,
+    cookieCrossOrigin: false,
+    cookieDomain: null,
+    cookieKey: "i18n_redirected",
+    cookieSecure: false,
+    fallbackLocale: "",
+    redirectOn: "root",
+    useCookie: true
+  },
   differentDomains: false,
   baseUrl: "",
   customRoutes: "page",
-  pages: {},
+  pages: {
+    "calculators/_slug": {
+      it: "/it/calculators/:slug",
+      en: "/en/calculators/:slug",
+      es: "/es/calculators/:slug",
+      fr: "/fr/calculators/:slug"
+    }
+  },
   skipSettingLocaleOnNavigate: false,
   types: "composition",
   debug: false,
@@ -141,7 +153,6 @@ export const normalizedLocales = [
   {
     code: "it",
     iso: "it-IT",
-    name: "Italiano",
     files: [
       {
         path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
@@ -152,7 +163,6 @@ export const normalizedLocales = [
   {
     code: "en",
     iso: "en-US",
-    name: "English",
     files: [
       {
         path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
@@ -163,7 +173,6 @@ export const normalizedLocales = [
   {
     code: "es",
     iso: "es-ES",
-    name: "Español",
     files: [
       {
         path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
@@ -174,7 +183,6 @@ export const normalizedLocales = [
   {
     code: "fr",
     iso: "fr-FR",
-    name: "Français",
     files: [
       {
         path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",

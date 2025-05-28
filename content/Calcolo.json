@@ -4905,5 +4905,677 @@
       }
     ],
     "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "calcolo.online",
+    "title": "Calcolatori Online Gratuiti",
+    "description": "Tutti gli strumenti di cui hai bisogno, in un solo posto.",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "calcolatori-online-gratuiti-e-veloci",
+    "title": "Fast and Free Online Calculators",
+    "description": "All the tools you need, in one place.",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "home-calcolo-online",
+    "title": "",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "cookie",
+    "title": "Cookie",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "matematica-e-informatica",
+    "title": "Scienza: calcolatori e strumenti online gratuiti",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "wellness",
+    "title": "Health Calculators",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "utilita-quotidiana",
+    "title": "Convertitori",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "salute-e-benessere",
+    "title": "Calcolatori Salute",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "everyday-life",
+    "title": "Converters and Tools",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "science",
+    "title": "Science: Free Online Calculators and Tools",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "calcolatori-gravidanza",
+    "title": "Calcolatori gravidanza",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "finanza",
+    "title": "Calcolatori Finanziari",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "elettricita",
+    "title": "Calcoli Elettrici",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "statistica",
+    "title": "Calcolatori di Statistica e Probabilità",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "electricity-en",
+    "title": "Electrical Calculators",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "convertitori",
+    "title": "Convertitori di Unità di Misura",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "geometria",
+    "title": "Geometria",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "financial",
+    "title": "Finance Calculators",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "unit-converters",
+    "title": "Unit Converters",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "generic",
+    "title": "Generic Calculators",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Search",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "matematica",
+    "title": "Matematica",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "fisica",
+    "title": "Fisica: calcolatori e strumenti online",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "chimica",
+    "title": "Chimica",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
+  },
+  {
+    "slug": "informatica",
+    "title": "Informatica",
+    "description": "",
+    "inputs": [
+      {
+        "tag": "input",
+        "name": "s",
+        "label": "Cerca",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "post_type",
+        "label": "post_type",
+        "step": "any"
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "label": "",
+        "step": "any"
+      }
+    ],
+    "formula": "void delete d[t]}function r(){var t"
   }
 ]

@@ -1,14 +1,13 @@
 <template>
-  <footer class="bg-gray-100 dark:bg-gray-900 p-6">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="font-bold mb-2">{{ $t('categoriesLabel') }}</h2>
-      <ul class="flex flex-wrap gap-4">
-        <li v-for="cat in categoryKeys" :key="cat">
+  <footer class="bg-gray-100 dark:bg-gray-800 py-4">
+    <div class="container mx-auto px-4">
+      <ul class="flex flex-wrap space-x-4">
+        <li v-for="category in categories" :key="category.slug">
           <NuxtLink
-            :to="`/${locale}/${cat}`"
-            class="text-blue-600 dark:text-blue-400 hover:underline text-sm"
+            :to="localizedLink(category.slug)"
+            class="text-gray-700 dark:text-gray-200 hover:underline"
           >
-            {{ translateCategory(cat) }}
+            {{ t(`categories.${category.slug}`) }}
           </NuxtLink>
         </li>
       </ul>
@@ -17,22 +16,17 @@
 </template>
 
 <script setup>
-import { useRoute } from 'vue-router'
-import { useI18n } from 'vue-i18n'
-import taxonomy from '~/content/taxonomy.json'
+import { useI18n } from 'vue-i18n';
+import useCategories from '@/composables/useCategories';
 
-const route = useRoute()
-const { locale: i18nLocale, t } = useI18n()
-const locale = route.params.lang || i18nLocale.value || 'it'
+const { t, locale } = useI18n();
+const { categories } = useCategories();
 
-// le chiavi delle categorie (slug)
-const categoryKeys = Object.keys(taxonomy)
-
-// se hai traduzioni in locales/*.json sotto "categories"
-// altrimenti capitalizza
-function translateCategory(slug) {
-  const key = `categories.${slug}`
-  const translated = t(key)
-  return translated !== key ? translated : slug.charAt(0).toUpperCase() + slug.slice(1)
+function localizedLink(slug) {
+  return `/${locale.value}/${slug}`;
 }
 </script>
+
+<style scoped>
+/* eventuali stili extra */
+</style>

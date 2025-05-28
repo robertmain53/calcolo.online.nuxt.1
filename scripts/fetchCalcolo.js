@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 import { load } from 'cheerio';
 import pMap from 'p-map';
 
-const tools = JSON.parse(fs.readFileSync('data/Calcolo.json', 'utf-8'));
+const tools = JSON.parse(fs.readFileSync('data/Calcololist.json', 'utf-8'));
 
 async function scrapeTool(url) {
   try {

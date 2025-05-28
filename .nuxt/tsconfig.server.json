@@ -124,12 +124,6 @@
       "#unhead/composables": [
         "../node_modules/nuxt/dist/head/runtime/composables/v3"
       ],
-      "#tailwindcss": [
-        "./tailwind"
-      ],
-      "#tailwindcss/sources": [
-        "./tailwindcss/sources"
-      ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
       ],
@@ -179,7 +173,6 @@
   "include": [
     "./content/types.d.ts",
     "./types/nitro-nuxt.d.ts",
-    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
@@ -192,7 +185,6 @@
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
-    "../node_modules/@nuxtjs/tailwindcss/node_modules",
     "../node_modules/@nuxtjs/i18n/node_modules",
     "../node_modules/@nuxtjs/mdc/node_modules",
     "../node_modules/@nuxt/content/node_modules",

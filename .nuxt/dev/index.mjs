@@ -915,7 +915,7 @@ const _inlineRuntimeConfig = {
       "baseUrl": "",
       "defaultLocale": "it",
       "defaultDirection": "ltr",
-      "strategy": "prefix_except_default",
+      "strategy": "prefix",
       "lazy": true,
       "rootRedirect": "",
       "routesNameSeparator": "___",
@@ -927,7 +927,6 @@ const _inlineRuntimeConfig = {
         {
           "code": "it",
           "iso": "it-IT",
-          "name": "Italiano",
           "files": [
             {
               "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
@@ -938,7 +937,6 @@ const _inlineRuntimeConfig = {
         {
           "code": "en",
           "iso": "en-US",
-          "name": "English",
           "files": [
             {
               "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
@@ -949,7 +947,6 @@ const _inlineRuntimeConfig = {
         {
           "code": "es",
           "iso": "es-ES",
-          "name": "Español",
           "files": [
             {
               "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
@@ -960,7 +957,6 @@ const _inlineRuntimeConfig = {
         {
           "code": "fr",
           "iso": "fr-FR",
-          "name": "Français",
           "files": [
             {
               "path": "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",
@@ -969,7 +965,16 @@ const _inlineRuntimeConfig = {
           ]
         }
       ],
-      "detectBrowserLanguage": false,
+      "detectBrowserLanguage": {
+        "alwaysRedirect": false,
+        "cookieCrossOrigin": false,
+        "cookieDomain": "",
+        "cookieKey": "i18n_redirected",
+        "cookieSecure": false,
+        "fallbackLocale": "",
+        "redirectOn": "root",
+        "useCookie": true
+      },
       "experimental": {
         "localeDetector": "",
         "switchLocalePathLinkSSR": false,
@@ -1801,7 +1806,7 @@ async function decompressSQLDump(base64Str, compressionType = "gzip") {
 }
 
 const checksums = {
-  "content": "v3.5.0--a3cMFH1rv7lgx9DhH4I8c4-B8XL8LzNRYdSDyQFv81k"
+  "content": "v3.5.0--FihViGr1Dz-QRvdyF-u71Fc6lBIxCFbYUqDKK_hq0PA"
 };
 const checksumsStructure = {
   "content": "bgIYhpjRuV8zbHJE_CfelwKpJ_Td6YuGJwixiek8lmI"

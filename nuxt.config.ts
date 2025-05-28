@@ -1,27 +1,31 @@
-// nuxt.config.ts
-export default defineNuxtConfig({
+export default {
+  // …
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
-    '@nuxt/content' 
+    '@nuxt/content',
+    // …
   ],
-  content: {
-    dir: 'content'
-  },
-
-  css: ['@/assets/css/tailwind.css'],
-  tailwindcss: { configPath: 'tailwind.config.js' },
   i18n: {
     locales: [
-      { code: 'it', iso: 'it-IT', name: 'Italiano', file: 'it.json' },
-      { code: 'en', iso: 'en-US', name: 'English',  file: 'en.json' },
-      { code: 'es', iso: 'es-ES', name: 'Español',  file: 'es.json' },
-      { code: 'fr', iso: 'fr-FR', name: 'Français', file: 'fr.json' }
+      { code: 'it', iso: 'it-IT', file: 'it.json' },
+      { code: 'en', iso: 'en-US', file: 'en.json' },
+      { code: 'es', iso: 'es-ES', file: 'es.json' },
+      { code: 'fr', iso: 'fr-FR', file: 'fr.json' },
     ],
     defaultLocale: 'it',
+    strategy: 'prefix',
     lazy: true,
     langDir: 'locales/',
-    detectBrowserLanguage: false
+    pages: {
+      'calculators/_slug': {
+        it: '/it/calculators/:slug',
+        en: '/en/calculators/:slug',
+        es: '/es/calculators/:slug',
+        fr: '/fr/calculators/:slug',
+      }
+    }
   },
-  nitro: { compatibilityDate: '2025-05-26' }
-})
+  content: {
+    // opzioni @nuxt/content se serve
+  }
+}
