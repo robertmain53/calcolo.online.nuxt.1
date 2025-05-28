@@ -5,39 +5,15 @@
 export const localeCodes =  [
   "it",
   "en",
-  "es",
-  "fr"
+  "fr",
+  "es"
 ]
 
 export const localeLoaders = {
-  it: [
-    {
-      key: "locale_it_46json_c0677488",
-      load: () => import("#nuxt-i18n/c0677488" /* webpackChunkName: "locale_it_46json_c0677488" */),
-      cache: true
-    }
-  ],
-  en: [
-    {
-      key: "locale_en_46json_b18c4f03",
-      load: () => import("#nuxt-i18n/b18c4f03" /* webpackChunkName: "locale_en_46json_b18c4f03" */),
-      cache: true
-    }
-  ],
-  es: [
-    {
-      key: "locale_es_46json_01e0d25b",
-      load: () => import("#nuxt-i18n/01e0d25b" /* webpackChunkName: "locale_es_46json_01e0d25b" */),
-      cache: true
-    }
-  ],
-  fr: [
-    {
-      key: "locale_fr_46json_82d110c3",
-      load: () => import("#nuxt-i18n/82d110c3" /* webpackChunkName: "locale_fr_46json_82d110c3" */),
-      cache: true
-    }
-  ]
+  it: [],
+  en: [],
+  fr: [],
+  es: []
 }
 
 export const vueI18nConfigs = []
@@ -74,45 +50,25 @@ export const nuxtI18nOptions = {
       code: "it",
       iso: "it-IT",
       name: "Italiano",
-      files: [
-        {
-          path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
-          cache: undefined
-        }
-      ]
+      files: []
     },
     {
       code: "en",
       iso: "en-US",
       name: "English",
-      files: [
-        {
-          path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
-          cache: undefined
-        }
-      ]
-    },
-    {
-      code: "es",
-      iso: "es-ES",
-      name: "Español",
-      files: [
-        {
-          path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
-          cache: undefined
-        }
-      ]
+      files: []
     },
     {
       code: "fr",
       iso: "fr-FR",
       name: "Français",
-      files: [
-        {
-          path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",
-          cache: undefined
-        }
-      ]
+      files: []
+    },
+    {
+      code: "es",
+      iso: "es-ES",
+      name: "Español",
+      files: []
     }
   ],
   defaultLocale: "it",
@@ -121,10 +77,19 @@ export const nuxtI18nOptions = {
   trailingSlash: false,
   defaultLocaleRouteNameSuffix: "default",
   strategy: "prefix_except_default",
-  lazy: true,
-  langDir: "locales/",
+  lazy: false,
+  langDir: "locales",
   rootRedirect: undefined,
-  detectBrowserLanguage: false,
+  detectBrowserLanguage: {
+    alwaysRedirect: false,
+    cookieCrossOrigin: false,
+    cookieDomain: null,
+    cookieKey: "i18n_redirected",
+    cookieSecure: false,
+    fallbackLocale: "",
+    redirectOn: "root",
+    useCookie: true
+  },
   differentDomains: false,
   baseUrl: "",
   customRoutes: "page",
@@ -142,45 +107,25 @@ export const normalizedLocales = [
     code: "it",
     iso: "it-IT",
     name: "Italiano",
-    files: [
-      {
-        path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/it.json",
-        cache: undefined
-      }
-    ]
+    files: []
   },
   {
     code: "en",
     iso: "en-US",
     name: "English",
-    files: [
-      {
-        path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/en.json",
-        cache: undefined
-      }
-    ]
-  },
-  {
-    code: "es",
-    iso: "es-ES",
-    name: "Español",
-    files: [
-      {
-        path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/es.json",
-        cache: undefined
-      }
-    ]
+    files: []
   },
   {
     code: "fr",
     iso: "fr-FR",
     name: "Français",
-    files: [
-      {
-        path: "/workspaces/calcolo.online.nuxt.1/i18n/locales/fr.json",
-        cache: undefined
-      }
-    ]
+    files: []
+  },
+  {
+    code: "es",
+    iso: "es-ES",
+    name: "Español",
+    files: []
   }
 ]
 
@@ -252,25 +197,7 @@ async function loadCfg(config) {
 }
 
 
-  import.meta.hot.accept("../i18n/locales/it.json", async mod => {
-    localeLoaders["it"][0].load = () => Promise.resolve(mod.default)
-    await useNuxtApp()._nuxtI18nDev.resetI18nProperties("it")
-  })
 
-  import.meta.hot.accept("../i18n/locales/en.json", async mod => {
-    localeLoaders["en"][0].load = () => Promise.resolve(mod.default)
-    await useNuxtApp()._nuxtI18nDev.resetI18nProperties("en")
-  })
-
-  import.meta.hot.accept("../i18n/locales/es.json", async mod => {
-    localeLoaders["es"][0].load = () => Promise.resolve(mod.default)
-    await useNuxtApp()._nuxtI18nDev.resetI18nProperties("es")
-  })
-
-  import.meta.hot.accept("../i18n/locales/fr.json", async mod => {
-    localeLoaders["fr"][0].load = () => Promise.resolve(mod.default)
-    await useNuxtApp()._nuxtI18nDev.resetI18nProperties("fr")
-  })
 
 
 

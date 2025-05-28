@@ -32,6 +32,15 @@
   "categories": {
     "electrical": "Elettrico",
     "voltage": "Tensione",
-    "resistance": "Resistenza"
+    "resistance": "Resistenza",
+    "siteTitle": "Calcolatori Online",
+  "siteIntro": "Benvenuto!",
+  "siteOutro": "Grazie della visita.",
+  "brand": "RapidTables",
+  "searchPlaceholder": "Cerca...",
+  "categoriesLabel": "Categorie",
+  "categories": {
+    "electrical": "Elettrico",
+    "finance": "Finanza"
 }
 }

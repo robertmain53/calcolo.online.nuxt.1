@@ -37,10 +37,7 @@
           {{ loc.toUpperCase() }}
         </button>
       </div>
-      <!-- Dark-mode toggle (se vuoi tenerlo) 
-      <button @click="toggleDark" class="p-2" :aria-label="isDark ? $t('lightMode') : $t('darkMode')">
-        <span v-if="isDark">☀️</span><span v-else>🌙</span>
-      </button> -->
+  
     </div>
   </header>
 </template>
@@ -77,17 +74,6 @@ function changeLocale(code) {
   router.push(newPath)
 }
 
-// Dark mode (opzionale)
-const isDark = ref(false)
-function toggleDark() {
-  isDark.value = !isDark.value
-  document.documentElement.classList.toggle('dark', isDark.value)
-  localStorage.setItem('darkMode', isDark.value.toString())
-}
-onMounted(() => {
-  const saved = localStorage.getItem('darkMode')
-  const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches
-  isDark.value = saved === 'true' || (saved === null && prefers)
-  document.documentElement.classList.toggle('dark', isDark.value)
-})
+ 
+
 </script>

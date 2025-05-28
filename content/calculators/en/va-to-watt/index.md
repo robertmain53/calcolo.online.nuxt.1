@@ -1,0 +1,8 @@
+---
+slug: va-to-watt
+title: "How to convert VA to watts"
+category: ""
+subcategory: ""
+description: "How to convert apparent power in volt-amps (VA) to real power in watts (W)."
+---
+

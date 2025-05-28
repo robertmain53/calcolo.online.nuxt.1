@@ -1,0 +1,8 @@
+---
+slug: Volt_to_Amp
+title: "How to convert volts to amps"
+category: ""
+subcategory: ""
+description: "How to convert electrical voltage in  volts (V) to electric current in amps (A)."
+---
+

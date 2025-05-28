@@ -1,0 +1,8 @@
+---
+slug: how-lumen-to-watt
+title: "How to convert lumens to watts"
+category: ""
+subcategory: ""
+description: "How to convert luminous flux in lumens (lm) to electric power in watts (W)."
+---
+

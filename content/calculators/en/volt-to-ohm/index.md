@@ -1,0 +1,8 @@
+---
+slug: volt-to-ohm
+title: "How to convert volts to ohms"
+category: ""
+subcategory: ""
+description: "How to convert electrical voltage in  volts (V) to electric resistance in ohms (Ω)."
+---
+

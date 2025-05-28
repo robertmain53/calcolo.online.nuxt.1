@@ -26,5 +26,19 @@
         "outro": "<p>Fine dei calcoli di resistenza.</p>"
       }
      }
+  },
+  "elettricita": {
+    "intro": "<p>Introduzione alla categoria Electrical…</p>",
+    "outro": "<p>Fine della categoria Electrical.</p>",
+    "subcategories": {
+      "tensione": {
+        "intro": "<p>Calcoli di tensione elettrica…</p>",
+        "outro": "<p>Fine dei calcoli di tensione.</p>"
+      },
+      "resistenza": {
+        "intro": "<p>Calcoli di resistenza…</p>",
+        "outro": "<p>Fine dei calcoli di resistenza.</p>"
+      }
+     }
+    }
   }
- }

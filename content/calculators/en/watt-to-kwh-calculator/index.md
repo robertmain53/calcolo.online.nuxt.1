@@ -1,0 +1,8 @@
+---
+slug: watt-to-kwh-calculator
+title: "Watts to kWh Calculator"
+category: ""
+subcategory: ""
+description: "Power in	watts (W) to energy in kilowatt-hours (kWh) calculator and calculation formula."
+---
+

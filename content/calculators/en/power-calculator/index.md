@@ -1,0 +1,8 @@
+---
+slug: power-calculator
+title: "Power Calculator"
+category: ""
+subcategory: ""
+description: "Power consumption calculator: calculates electric power /  voltage / current / resistance."
+---
+

@@ -1,6 +1,5 @@
 export const Accordion = () => import('./../../components/Accordion.vue')
 export const Breadcrumbs = () => import('./../../components/Breadcrumbs.vue')
-export const CalculatorLayout = () => import('./../../components/CalculatorLayout.vue')
 export const Footer = () => import('./../../components/Footer.vue')
 export const Header = () => import('./../../components/Header.vue')
 export const Tooltip = () => import('./../../components/Tooltip.vue')
@@ -35,4 +34,4 @@ export const Html = () => import('./../../node_modules/nuxt/dist/head/runtime/co
 export const Body = () => import('./../../node_modules/nuxt/dist/head/runtime/components')
 export const NuxtIsland = () => import('./../../node_modules/nuxt/dist/app/components/nuxt-island')
 export const globalComponents: string[] = ["ProseA","ProseBlockquote","ProseCode","ProseEm","ProseH1","ProseH2","ProseH3","ProseH4","ProseH5","ProseH6","ProseHr","ProseImg","ProseLi","ProseOl","ProseP","ProsePre","ProseScript","ProseStrong","ProseTable","ProseTbody","ProseTd","ProseTh","ProseThead","ProseTr","ProseUl"]
-export const localComponents: string[] = ["Accordion","Breadcrumbs","CalculatorLayout","Footer","Header","Tooltip","NuxtWelcome","NuxtLayout","NuxtErrorBoundary","ClientOnly","DevOnly","ServerPlaceholder","NuxtLink","NuxtLoadingIndicator","NuxtTime","NuxtRouteAnnouncer","NuxtImg","NuxtPicture","NuxtLinkLocale","SwitchLocalePathLink","ContentRenderer","MDC","MDCCached","MDCRenderer","MDCSlot","NuxtPage","NoScript","Link","Base","Title","Meta","Style","Head","Html","Body","NuxtIsland"]
+export const localComponents: string[] = ["Accordion","Breadcrumbs","Footer","Header","Tooltip","NuxtWelcome","NuxtLayout","NuxtErrorBoundary","ClientOnly","DevOnly","ServerPlaceholder","NuxtLink","NuxtLoadingIndicator","NuxtTime","NuxtRouteAnnouncer","NuxtImg","NuxtPicture","NuxtLinkLocale","SwitchLocalePathLink","ContentRenderer","MDC","MDCCached","MDCRenderer","MDCSlot","NuxtPage","NoScript","Link","Base","Title","Meta","Style","Head","Html","Body","NuxtIsland"]

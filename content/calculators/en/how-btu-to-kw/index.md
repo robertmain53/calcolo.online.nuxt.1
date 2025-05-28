@@ -1,0 +1,8 @@
+---
+slug: how-btu-to-kw
+title: "How to convert BTU/hr to kW"
+category: ""
+subcategory: ""
+description: "How to convert British Thermal Units per hour (BTU/hr) to kilowatts (kW)."
+---
+

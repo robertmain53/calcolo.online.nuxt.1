@@ -4,6 +4,15 @@
   "categoriesLabel": "Categorías",
   "lightMode": "Modo claro",
   "darkMode": "Modo oscuro",
-    "categoriesLabel": "Categorias"
+    "categoriesLabel": "Categorias",
+    "siteTitle": "Calcolatori Online",
+  "siteIntro": "Benvenuto!",
+  "siteOutro": "Grazie della visita.",
+  "brand": "RapidTables",
+  "searchPlaceholder": "Cerca...",
+  "categoriesLabel": "Categorie",
+  "categories": {
+    "electrical": "Elettrico",
+    "finance": "Finanza"
 
  }

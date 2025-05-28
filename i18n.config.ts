@@ -1,7 +1,8 @@
 
 export default {
   legacy: false,
-  locale: 'en',
+  locale: 'it',
+  messages: {},
   strategy: 'prefix_except_default',
   detectBrowserLanguage: false,
   locales: ['en', 'it', 'es', 'fr'],

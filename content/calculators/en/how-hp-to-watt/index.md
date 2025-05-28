@@ -1,0 +1,8 @@
+---
+slug: how-hp-to-watt
+title: "How to convert horsepower to watts"
+category: ""
+subcategory: ""
+description: "How to convert power in horsepower (hp) to  watts (W)."
+---
+

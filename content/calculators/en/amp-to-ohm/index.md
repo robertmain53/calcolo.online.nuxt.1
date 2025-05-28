@@ -1,0 +1,8 @@
+---
+slug: amp-to-ohm
+title: "How to convert amps to ohms"
+category: ""
+subcategory: ""
+description: "How to convert electric current  in amps (A) to resistance in ohms (Ω)."
+---
+

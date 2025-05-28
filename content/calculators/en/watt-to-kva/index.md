@@ -1,0 +1,8 @@
+---
+slug: watt-to-kva
+title: "How to convert watts to kVA"
+category: ""
+subcategory: ""
+description: "How to convert real power in watts (W) to apparent power in kilovolt-amps (kVA)."
+---
+

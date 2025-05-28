@@ -14,7 +14,6 @@ type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}
 interface _GlobalComponents {
       'Accordion': typeof import("../components/Accordion.vue")['default']
     'Breadcrumbs': typeof import("../components/Breadcrumbs.vue")['default']
-    'CalculatorLayout': typeof import("../components/CalculatorLayout.vue")['default']
     'Footer': typeof import("../components/Footer.vue")['default']
     'Header': typeof import("../components/Header.vue")['default']
     'Tooltip': typeof import("../components/Tooltip.vue")['default']
@@ -76,7 +75,6 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAccordion': LazyComponent<typeof import("../components/Accordion.vue")['default']>
     'LazyBreadcrumbs': LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
-    'LazyCalculatorLayout': LazyComponent<typeof import("../components/CalculatorLayout.vue")['default']>
     'LazyFooter': LazyComponent<typeof import("../components/Footer.vue")['default']>
     'LazyHeader': LazyComponent<typeof import("../components/Header.vue")['default']>
     'LazyTooltip': LazyComponent<typeof import("../components/Tooltip.vue")['default']>
@@ -144,7 +142,6 @@ declare module 'vue' {
 
 export const Accordion: typeof import("../components/Accordion.vue")['default']
 export const Breadcrumbs: typeof import("../components/Breadcrumbs.vue")['default']
-export const CalculatorLayout: typeof import("../components/CalculatorLayout.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Header: typeof import("../components/Header.vue")['default']
 export const Tooltip: typeof import("../components/Tooltip.vue")['default']
@@ -206,7 +203,6 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAccordion: LazyComponent<typeof import("../components/Accordion.vue")['default']>
 export const LazyBreadcrumbs: LazyComponent<typeof import("../components/Breadcrumbs.vue")['default']>
-export const LazyCalculatorLayout: LazyComponent<typeof import("../components/CalculatorLayout.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>
 export const LazyHeader: LazyComponent<typeof import("../components/Header.vue")['default']>
 export const LazyTooltip: LazyComponent<typeof import("../components/Tooltip.vue")['default']>

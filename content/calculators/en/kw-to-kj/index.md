@@ -1,0 +1,8 @@
+---
+slug: kw-to-kj
+title: "How to convert kilowatts to kilojoules"
+category: ""
+subcategory: ""
+description: "How to convert  electric power in kilowatts (kW) to energy in kilojoules (kJ)."
+---
+

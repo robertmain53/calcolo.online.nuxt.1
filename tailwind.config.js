@@ -1,13 +1,14 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
-  darkMode: 'class',          // anche se non useremo il toggle, lo lasci
   content: [
-    './components/**/*.{vue,js,ts}',
-    './pages/**/*.vue',
+    './components/**/*.{vue,js}',
     './layouts/**/*.vue',
-    './app.vue'
-    
+    './pages/**/*.vue',
+    './app.vue',
+    './plugins/**/*.{js,ts}',
   ],
-  theme: { extend: {} },
-  plugins: []
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }

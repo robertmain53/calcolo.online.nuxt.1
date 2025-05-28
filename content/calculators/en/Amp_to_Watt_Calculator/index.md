@@ -1,0 +1,8 @@
+---
+slug: Amp_to_Watt_Calculator
+title: "Amps to Watts Calculator"
+category: ""
+subcategory: ""
+description: "Electric current in amps (A) to  electric power in watts (W) calculator."
+---
+

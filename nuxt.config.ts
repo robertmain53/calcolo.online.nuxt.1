@@ -1,27 +1,22 @@
-// nuxt.config.ts
+
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
-    '@nuxt/content' 
+    '@nuxt/content',
+     '@nuxtjs/tailwindcss'  
   ],
-  content: {
-    dir: 'content'
-  },
-
-  css: ['@/assets/css/tailwind.css'],
-  tailwindcss: { configPath: 'tailwind.config.js' },
+  css: [
+     '~/assets/css/tailwind.css'
+  ],
   i18n: {
     locales: [
-      { code: 'it', iso: 'it-IT', name: 'Italiano', file: 'it.json' },
-      { code: 'en', iso: 'en-US', name: 'English',  file: 'en.json' },
-      { code: 'es', iso: 'es-ES', name: 'Español',  file: 'es.json' },
-      { code: 'fr', iso: 'fr-FR', name: 'Français', file: 'fr.json' }
+      { code: 'it', iso: 'it-IT', name: 'Italiano' },
+      { code: 'en', iso: 'en-US', name: 'English' },
+      { code: 'fr', iso: 'fr-FR', name: 'Français' },
+      { code: 'es', iso: 'es-ES', name: 'Español' }
     ],
     defaultLocale: 'it',
-    lazy: true,
-    langDir: 'locales/',
-    detectBrowserLanguage: false
-  },
-  nitro: { compatibilityDate: '2025-05-26' }
+    strategy: 'prefix_except_default', // oppure 'prefix' se vuoi sempre /it
+    vueI18n: './i18n.config.js'
+  }
 })

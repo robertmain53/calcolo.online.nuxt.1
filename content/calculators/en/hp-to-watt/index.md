@@ -1,0 +1,8 @@
+---
+slug: hp-to-watt
+title: "Horsepower to watts conversion"
+category: ""
+subcategory: ""
+description: "Horsepower (hp) to watts (W),  power conversion: calculator and how to convert."
+---
+

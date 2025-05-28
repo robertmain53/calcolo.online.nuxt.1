@@ -1,0 +1,8 @@
+---
+slug: kW_to_Amp
+title: "How to convert kilowatts to amps"
+category: ""
+subcategory: ""
+description: "How to convert electric power in kilowatts (kW) to  electric current in amps (A)."
+---
+

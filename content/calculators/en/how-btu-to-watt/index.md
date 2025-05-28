@@ -1,0 +1,8 @@
+---
+slug: how-btu-to-watt
+title: "How to convert BTU/hr to watts"
+category: ""
+subcategory: ""
+description: "How to convert BTU per hour (BTU/hr) to watts (W)."
+---
+

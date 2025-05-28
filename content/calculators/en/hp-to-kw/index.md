@@ -1,0 +1,8 @@
+---
+slug: hp-to-kw
+title: "Horsepower to kilowatts conversion"
+category: ""
+subcategory: ""
+description: "Horsepower (hp) to kilowatts (kW)  power conversion: calculator and how to convert."
+---
+

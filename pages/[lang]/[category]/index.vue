@@ -1,15 +1,26 @@
 <template>
-  <div class="p-4 max-w-5xl mx-auto">
-    <h1 class="text-2xl font-bold mb-2">{{ translateCategory(category) }}</h1>
-    <div v-html="catData.intro" class="prose mb-6"></div>
-    <ul class="list-disc ml-5 mb-6">
-      <li v-for="sub in subcats" :key="sub">
-        <NuxtLink :to="`/${locale}/${category}/${sub}`" class="hover:underline">
-          {{ translateCategory(sub) }}
-        </NuxtLink>
-      </li>
-    </ul>
-    <div v-html="catData.outro" class="prose"></div>
+  <div class="max-w-5xl mx-auto px-2 py-8">
+    <h1 class="text-3xl font-bold mb-4">
+      {{ categoryTitle }}
+    </h1>
+    <div v-if="categoryIntro" class="mb-6 prose" v-html="categoryIntro"></div>
+
+    <!-- Sottocategorie -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <NuxtLink
+        v-for="(subcat, subSlug) in subcategories"
+        :key="subSlug"
+        :to="`/${lang}/${category}/${subSlug}`"
+        class="border rounded-xl p-4 hover:shadow transition bg-white flex flex-col"
+      >
+        <div class="font-semibold text-lg mb-2">
+          {{ capitalize(subSlug) }}
+        </div>
+        <div v-if="subcat.intro" class="text-sm text-gray-500" v-html="subcat.intro"></div>
+      </NuxtLink>
+    </div>
+
+    <div v-if="categoryOutro" class="prose mt-10" v-html="categoryOutro"></div>
   </div>
 </template>
 
@@ -19,17 +30,21 @@ import { useI18n } from 'vue-i18n'
 import taxonomy from '~/content/taxonomy.json'
 
 const route = useRoute()
-const { t } = useI18n()
-const locale = route.params.lang || 'it'
-const category = route.params.category
+const { locale } = useI18n()
 
-const catData = taxonomy[category] || { intro:'', outro:'', subcategories:{} }
-const subcats = Object.keys(catData.subcategories)
+const lang = computed(() => route.params?.lang || locale.value || 'it')
+const category = computed(() => route.params?.category || '')
 
-function translateCategory(slug) {
-  const key = `categories.${slug}`
-  return t(key) !== key ? t(key) : slug.charAt(0).toUpperCase()+slug.slice(1)
+const categoryData = computed(() => taxonomy?.[category.value] || {})
+const categoryIntro = computed(() => categoryData.value?.intro || '')
+const categoryOutro = computed(() => categoryData.value?.outro || '')
+const subcategories = computed(() => categoryData.value?.subcategories || {})
+
+const categoryTitle = computed(() =>
+  category.value.charAt(0).toUpperCase() + category.value.slice(1)
+)
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1)
 }
-
- 
 </script>

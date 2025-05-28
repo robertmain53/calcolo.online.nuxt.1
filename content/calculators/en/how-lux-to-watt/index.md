@@ -1,0 +1,8 @@
+---
+slug: how-lux-to-watt
+title: "How to convert lux to watts"
+category: ""
+subcategory: ""
+description: "How to convert illuminance in lux (lx) to  electric power in watts (W)."
+---
+

@@ -1,0 +1,8 @@
+---
+slug: volt-to-kw-calculator
+title: "Volts to kilowatts calculator"
+category: ""
+subcategory: ""
+description: "Volts (V) to kilowatts (kW) calculator."
+---
+

@@ -1,0 +1,8 @@
+---
+slug: kw-to-bhp
+title: "Kilowatts to BHP conversion"
+category: ""
+subcategory: ""
+description: "Kilowatts (kW) to brake horsepower (BHP)   power conversion calculator and how to convert."
+---
+

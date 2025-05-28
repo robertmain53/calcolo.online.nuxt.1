@@ -1,80 +1,62 @@
-<template>
-  <nav aria-label="Breadcrumb" class="text-sm text-gray-600 mb-4 pr-10 pl-10 pb-3 pt-3">
-    <ol class="list-reset flex space-x-1">
-      <li v-for="(crumb, i) in crumbs" :key="i" class="flex items-center">
-        <NuxtLink
-          v-if="crumb.to"
-          :to="crumb.to"
-          class="hover:underline"
-        >
-          {{ crumb.text }}
-        </NuxtLink>
-        <span v-else>
-          {{ crumb.text }}
-        </span>
-        <span v-if="i < crumbs.length - 1" class="px-1">/</span>
-      </li>
-    </ol>
-  </nav>
-</template>
-
 <script setup>
+import { useRoute } from '#imports'
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
-import { useI18n } from 'vue-i18n'
 
-const route = useRoute()
-const { t } = useI18n()
-const locale = computed(() => route.params.lang || 'it')
+const props = defineProps({
+  category: { type: String, required: true },
+  subcategory: { type: String, required: false },
+  title: { type: String, required: true },
+  lang: { type: String, required: true }
+})
 
-// Helper per capitalizzare
-function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1)
+// Link base per ciascuna lingua
+const routeMap = {
+  it: { root: '', calculators: 'calcolatori' },
+  en: { root: '', calculators: 'calculators' },
+  fr: { root: '', calculators: 'calculatrices' },
+  es: { root: '', calculators: 'calculadoras' }
 }
 
-const crumbs = computed(() => {
-  const c = []
-  // 1) Home
-  c.push({ text: t('home'), to: `/${locale.value}` })
+const basePath = computed(() => `/${props.lang}/${routeMap[props.lang].calculators}`)
 
-  const { category, subcategory, slug } = route.params
-
-  // 2) Se siamo in /[lang]/calculators or its children, aggiungiamo “Calculators”
-  if (route.path.startsWith(`/${locale.value}/calculators`)) {
-    c.push({
-      text: t('allCalculators'),
-      to: `/${locale.value}/calculators`
-    })
+const breadcrumbs = computed(() => {
+  if (!props.category || !props.title) return []
+  let arr = [
+    { name: 'Home', to: `/${props.lang}` },
+    { name: props.category, to: `${basePath.value}?category=${encodeURIComponent(props.category)}` }
+  ]
+  if (props.subcategory) {
+    arr.push({ name: props.subcategory, to: `${basePath.value}?category=${encodeURIComponent(props.category)}&subcategory=${encodeURIComponent(props.subcategory)}` })
   }
-
-  // 3) Categoria
-  if (category && !route.path.includes('/calculators/')) {
-    // pagina categoria o sottocategoria
-    c.push({
-      text: t(`categories.${category}`) !== `categories.${category}`
-        ? t(`categories.${category}`)
-        : capitalize(category),
-      to: `/${locale.value}/${category}`
-    })
-  }
-
-  // 4) Sottocategoria
-  if (subcategory) {
-    c.push({
-      text: t(`categories.${subcategory}`) !== `categories.${subcategory}`
-        ? t(`categories.${subcategory}`)
-        : capitalize(subcategory),
-      to: `/${locale.value}/${category}/${subcategory}`
-    })
-  }
-
-  // 5) Calcolatore
- // if (slug) {
-    // se siamo nella pagina slug
- //    const title = route.meta.title || route.params.slug
- //    c.push({ text: title, to: null })
- //  }
-
-  return c
+  arr.push({ name: props.title, to: null })
+  return arr
 })
+
+
+// Per structured data
+const breadcrumbItems = computed(() =>
+  breadcrumbs.value.map((item, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: item.name,
+    item: item.to ? (typeof item.to === 'string' ? (new URL(item.to, 'https://calcolo.online')).href : '') : undefined
+  }))
+)
 </script>
+
+<template>
+  <nav v-if="breadcrumbs.length" aria-label="breadcrumbs" class="text-sm mb-4">
+    <ol class="flex flex-wrap items-center gap-2">
+      <li v-for="(bc, idx) in breadcrumbs" :key="idx" class="flex items-center">
+        <template v-if="bc.to">
+          <NuxtLink :to="bc.to" class="hover:underline text-gray-700">{{ bc.name }}</NuxtLink>
+        </template>
+        <template v-else>
+          <span class="text-gray-500">{{ bc.name }}</span>
+        </template>
+        <span v-if="idx < breadcrumbs.length - 1" class="mx-2 text-gray-400">/</span>
+      </li>
+    </ol>
+ 
+  </nav>
+</template>

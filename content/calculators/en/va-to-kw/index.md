@@ -1,0 +1,8 @@
+---
+slug: va-to-kw
+title: "How to convert VA to kW"
+category: ""
+subcategory: ""
+description: "How to convert apparent power in volt-amps (VA) to real power in kilowatts (kW)."
+---
+

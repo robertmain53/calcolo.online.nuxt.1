@@ -1,0 +1,8 @@
+---
+slug: kwh-to-watt
+title: "How to convert kWh to watts"
+category: ""
+subcategory: ""
+description: "How to convert energy in kilowatt-hour (kWh) to electric power in watts (W)."
+---
+
