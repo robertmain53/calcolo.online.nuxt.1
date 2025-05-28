@@ -1,0 +1,38 @@
+
+{
+  "brand": "Calcolo.online",
+  "searchPlaceholder": "Cerca…",
+  "categoriesLabel": "Categorie",
+  "lightMode": "Modalità chiara",
+  "darkMode": "Modalità scura",
+    "categoriesLabel": "Categorie",
+  "siteTitle": "Benvenuto su Calcolo.online",
+  "siteIntro": "Introduzione al sito…",
+  "siteOutro": "Grazie per la visita!",
+  "categories": {
+    "electrical": "Elettrico",
+    "voltage": "Tensione",
+    "resistance": "Resistenza",
+    "finance": "Finanza"
+  },
+  "allCalculators": "Tutti i calcolatori",
+   "seeAlso": "Collegamenti correlati",
+  "tools": "Strumenti",
+  "loading": "Caricamento…",
+  "calculatorNotFound": "Calcolatore non trovato.",
+  "noInputsDefined": "Nessun input definito.",
+  "result": "Risultato",
+  "noFormulaDefined": "Formula non definita.",
+  "searchPlaceholder": "Cerca…",
+  "searchResultsFor": "Risultati per “{term}”",
+  "enterSearchTerm": "Inserisci un termine di ricerca.",
+  "noResults": "Nessun risultato trovato per “{term}”.",
+   "home": "Home",
+     "moreInfo": "Ulteriori Informazioni",
+  "allCalculators": "Calcolatori",
+  "categories": {
+    "electrical": "Elettrico",
+    "voltage": "Tensione",
+    "resistance": "Resistenza"
+}
+}

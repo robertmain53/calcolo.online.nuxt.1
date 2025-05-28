@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.5.1",
-    "@nuxtjs/i18n": "^9.3.0",
+    "@nuxtjs/i18n": "^9.5.4",
     "@nuxtjs/robots": "^3.0.0",
     "cheerio": "^1.0.0",
     "fast-xml-parser": "^5.2.3",
